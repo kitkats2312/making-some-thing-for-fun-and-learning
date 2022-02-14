@@ -1,31 +1,34 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>New Tab</title>
+    <style>
+      body {
+        background: #35363A;
+        margin: 0;
+      }
 
-<head>
-  
-  <title>webpage3</title>
-  <link rel="icon" type="image/png" href="https://wallpaperaccess.com/full/2180256.png"
-  <center></center>
-  
-<h1 style="color:black;">Sveicināti atpakaļ .....
-  
-</head>
+      #backgroundImage {
+        border: none;
+        height: 100%;
+        pointer-events: none;
+        position: fixed;
+        top: 0;
+        visibility: hidden;
+        width: 100%;
+      }
 
-<body>
-  
-  
-
-<h1 style="background-color:red;">+++</h1>
-<h1 style="color:green;background-color:blue;">+++</h2>
-<h1 style="color:orange;background-color:blue;">+++</h3>
-<H1 style="color:rgb(157,34,53)">+++</h4>
-<h1 style="color:rgb(31,208,205)">+++</h5>
-<h1>+++</h6>
-<h1>+++</h1>
-<h1 style="color:rgb(56,239,221);background">+++</h6>
- 
-  <p>&#82; &#73; &#72; &#65; &#82; &#68; &#83;</p> 
-  
-</center>
-</body> 
+      [show-background-image] #backgroundImage {
+        visibility: visible;
+      }
+    </style>
+  </head>
+  <body>
+    <iframe id="backgroundImage" src="chrome-untrusted://new-tab-page/custom_background_image?url=https%3A%2F%2Flh4.googleusercontent.com%2Fproxy%2FUOhQwfclsAK8TnXZqoTkh9szHvYOJ3auDH07hZBZeVaaRWvzGaXpaYl60MfCRuW_S57gvzBw859pj5Xl2pW_GpfG8k2GhE9LUFNKwA%3Dw3840-h2160-p-k-no-nd-mv"></iframe>
+    <ntp-app></ntp-app>
+    <script type="module" src="new_tab_page.js"></script>
+    <link rel="stylesheet" href="chrome://resources/css/text_defaults_md.css">
+    <link rel="stylesheet" href="shared_vars.css">
+  </body>
 </html>
