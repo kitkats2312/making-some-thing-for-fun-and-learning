@@ -1,1145 +1,168 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
-
 <meta charset="utf-8">
-<!-- 
-	This website is powered by TYPO3 - inspiring people to share!
-	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
-	TYPO3 is copyright 1998-2022 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
-	Information and contribution at https://typo3.org/
--->
+<meta name="theme-color" content="#333">
+<link rel="dns-prefetch" href="//style.sndcdn.com">
+<link rel="dns-prefetch" href="//a-v2.sndcdn.com">
+<link rel="dns-prefetch" href="//api-v2.soundcloud.com">
+<link rel="dns-prefetch" href="//sb.scorecardresearch.com">
+<link rel="dns-prefetch" href="//secure.quantserve.com">
+<link rel="dns-prefetch" href="//eventlogger.soundcloud.com">
+<link rel="dns-prefetch" href="//api.soundcloud.com">
+<link rel="dns-prefetch" href="//ssl.google-analytics.com">
+<link rel="dns-prefetch" href="//i1.sndcdn.com">
+<link rel="dns-prefetch" href="//i2.sndcdn.com">
+<link rel="dns-prefetch" href="//i3.sndcdn.com">
+<link rel="dns-prefetch" href="//i4.sndcdn.com">
+<link rel="dns-prefetch" href="//wis.sndcdn.com">
+<link rel="dns-prefetch" href="//va.sndcdn.com">
+<link rel="dns-prefetch" href="//pixel.quantserve.com">
+<title>SoundCloud - Listen to music</title>
+<meta content="record, sounds, share, sound, audio, tracks, music, soundcloud" name="keywords">
+<meta name="referrer" content="origin">
+<meta name="google-site-verification" content="dY0CigqM8Inubs_hgrYMwk-zGchKwrvJLcvI_G8631Q">
+<link crossorigin="use-credentials" rel="manifest" href="/webmanifest.json">
+<meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=no">
+<meta content="19507961798" property="fb:app_id">
+<meta content="SoundCloud" property="og:site_name">
+<meta content="SoundCloud" property="twitter:site">
+<meta content="SoundCloud" property="twitter:app:name:iphone">
+<meta content="336353151" property="twitter:app:id:iphone">
+<meta content="SoundCloud" property="twitter:app:name:ipad">
+<meta content="336353151" property="twitter:app:id:ipad">
+<meta content="SoundCloud" property="twitter:app:name:googleplay">
+<meta content="com.soundcloud.android" property="twitter:app:id:googleplay">
+<link href="/sc-opensearch.xml" rel="search" title="SoundCloud" type="application/opensearchdescription+xml">
 
-<base href="https://www.lu.lv/">
 
-<title>Latvijas Universitāte</title>
-<meta name="generator" content="TYPO3 CMS" />
-<meta name="twitter:card" content="summary" />
-
-<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" media="all">
-<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=PT+Sans&amp;amp;subset=cyrillic,latin-ext" media="all">
-<link rel="stylesheet" type="text/css" href="/typo3conf/ext/news/Resources/Public/Css/news-basic.css?1626947752" media="all">
-<link rel="stylesheet" type="text/css" href="/typo3temp/assets/css/7015c8c4ac.css?1621030683" media="all">
-<link rel="stylesheet" type="text/css" href="/typo3conf/ext/ns_all_lightbox/Resources/Public/lightbox2/css/lightbox.css?1631166986" media="all">
-<link rel="stylesheet" type="text/css" href="/typo3conf/ext/powermail/Resources/Public/Css/Basic.css?1628678410" media="all">
-<link rel="stylesheet" type="text/css" href="/templates/LU.LV/Public/Css/style.css?1606475974" media="all">
-<link rel="stylesheet" type="text/css" href="/templates/LU.LV/Public/Css/bootstrap-select.css?1549750003" media="all">
-<link rel="stylesheet" type="text/css" href="/templates/LU.LV/Public/Css/gallery.css?1619295816" media="all">
-
-
-<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
-<script src="/typo3temp/assets/js/0ff7c2475f.js?1585496365"></script>
-
-
-<meta name="facebook-domain-verification" content="jr7ncgz3335d0jqn35qxfmay8b5khd" /><meta name="viewport" content="initial-scale=1, maximum-scale=1"/>
-<link rel="canonical" href="https://www.lu.lv/?gf=95&amp;cHash=bac0522f276f8fc6a56a14643ca3ea1a"/>
-
-<link rel="alternate" hreflang="lv-LV" href="https://www.lu.lv/lv/?gf=95&amp;cHash=bac0522f276f8fc6a56a14643ca3ea1a"/>
-<link rel="alternate" hreflang="en-GB" href="https://www.lu.lv/en/?gf=95&amp;cHash=bac0522f276f8fc6a56a14643ca3ea1a"/>
-<link rel="alternate" hreflang="x-default" href="https://www.lu.lv/lv/?gf=95&amp;cHash=bac0522f276f8fc6a56a14643ca3ea1a"/>
-<!-- This site is optimized with the Yoast SEO for TYPO3 plugin - https://yoast.com/typo3-extensions-seo/ -->
-<script type="application/ld+json">[{"@context":"https:\/\/www.schema.org","@type":"WebSite","url":"https:\/\/www.lu.lv","name":"Latvijas Universit\u0101te"},{"@context":"https:\/\/www.schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https:\/\/www.lu.lv\/","name":"LU"}}]}]</script>
+<meta name="application-name" content="SoundCloud">
+<meta name="msapplication-tooltip" content="Launch SoundCloud">
+<meta name="msapplication-TileImage" content="https://a-v2.sndcdn.com/assets/images/sc-icons/win8-2dc974a18a.png">
+<meta name="msapplication-TileColor" content="#ff5500">
+<meta name="msapplication-starturl" content="https://soundcloud.com">
+<link href="https://a-v2.sndcdn.com/assets/images/sc-icons/favicon-2cadd14bdb.ico" rel="icon">
+<link href="https://a-v2.sndcdn.com/assets/images/sc-icons/ios-a62dfc8fe7.png" rel="apple-touch-icon">
+<link href="https://a-v2.sndcdn.com/assets/images/sc-icons/fluid-b4e7a64b8b.png" rel="fluid-icon">
+<script>!function(){var o,a,e;function i(a){return a.test(o)}o=window.navigator.userAgent.toLowerCase();var r,n,t,s=void 0!==window.opera&&"[object Opera]"===window.opera.toString(),p=o.match(/\sopr\/([0-9]+)\./),d=i(/chrome/),c=i(/webkit/),m=!d&&i(/safari/),w=!s&&i(/msie/),f=!c&&i(/gecko/);r=p?parseInt(p[1],10):(t=o.match(/(opera|chrome|safari|firefox|msie)\/?\s*(\.?\d+(\.\d+)*)/i))&&(n=o.match(/version\/([.\d]+)/i))?parseInt(n[1],10):t?parseInt(t[2],10):null;var h=i(/mobile|android|iphone|ipod|symbianos|nokia|s60|playbook|playstation/);f&&(e=(a=o.match(/(firefox)\/?\s*(\.?\d+(\.\d+)*)/i))&&a.length>1&&parseInt(a[2],10)>=41),r&&!h&&(d&&!p&&r<40||f&&!p&&!1===e||m&&r<8||w&&r<11||s&&r<13||p&&r<27)&&(window.__sc_abortApp=!0)}()</script>
+<link rel="stylesheet" href="https://style.sndcdn.com/css/interstate-a86f07cf94ae5a496b24.css">
+<link rel="stylesheet" href="https://a-v2.sndcdn.com/assets/css/app-d056f868f2b77590d70a.css">
 </head>
-<body>
+<body class="sc-classic ot-hide-banner">
 
-<div id="fb-root"></div><script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v8.0&appId=1755167954711426&autoLogAppEvents=1" nonce="Ck46cy36"></script>
-<div class="page">
-    <div class="menuContainer">
-        <div class="topRibbon">
-            <div class="topRibbon__container">
-                <a href="https://www.lu.lv/portals/" target="_blank" class="topRibbon__link">Studentiem un darbiniekiem<i class="icon-lu-lock"></i></a><a href="https://www.fonds.lv/" target="_blank" class="topRibbon__link">Mecenātiem<i class="icon-lu-outsource"></i></a><a href="/par-mums/lu-mediji/" class="topRibbon__link">Medijiem</a><a href="https://www.ak.lu.lv/" target="_blank" class="topRibbon__link">Absolventiem<i class="icon-lu-outsource"></i></a>
-            </div>
-        </div>
-        
-
-<div class="menuRibbon" style="width: 100% !important;">
-    <div class="menuRibbon__container">
-        <div class="menuRibbon__searchWindowContainer"></div>
-        <a href="/" title="Latvijas Universitāte" class="menuRibbon__logo"><img src="/templates/LU.LV/Public/Images/logo_100_white.svg" width="270" height="62"   alt="Latvijas Universitāte" ></a>
-        <div class="menuRibbon__controls">
-            <div class="menuRibbon__upperControls">
-                <ul class="upperMenu"><a href="https://www.konference80.lu.lv/" class="upperMenu__button"><li>KONFERENCE</li></a><li><a href="https://www.akademiskaiscentrs.lu.lv/" class="upperMenu__button"><img src="/templates/LU.LV/Public/Images/2022.svg" width="56" height="56"   alt="" >Akadēmiskais centrs</a></li><li><button class="upperMenu__button">Īsceļi<span class="upperMenu__icon"></span>
-                </button><ul class="upperMenu__submenu"><li><a href="https://www.forthem-alliance.eu/" target="_blank">FORTHEM</a><a href="https://estudijas.lu.lv/" target="_blank">E-studijas</a><a href="https://outlook.office.com/" target="_blank">E-pasts</a><a href="https://www.biblioteka.lu.lv/resursi/e-resursi-no-a-lidz-z/" target="_blank">E-resursi</a><a href="http://foto.lu.lv/" target="_blank">Foto</a><a href="/par-mums/lu-mediji/tiesraides/">Tiešraides</a><a href="https://serviss.lu.lv/" target="_blank">Servisa pieteikumi</a><a href="https://itserviss.lu.lv/">IT Serviss</a></li></ul></li>            <li>
-                <button class="upperMenu__button searchTrigger">
-                    <span class="upperMenu__searchIcon"><i class="icon-lu-search-2"></i></span>
-                </button>
-            </li>        <li>
-            <button class="upperMenu__button">
-                <span class="upperMenu__fontIcon"><i class="icon-lu-changefontsize"></i></span>
-            </button>
-            <ul class="upperMenu__submenu fontMenu">
-                <li>
-                    <button href="#!" data-font="sm">75%</button>
-                </li>
-                <li>
-                    <button href="#!" data-font="nm">100%</button>
-                </li>
-                <li>
-                    <button href="#!" data-font="bg">125%</button>
-                </li>
-                <li>
-                    <button href="#!" data-font="eb">150%</button>
-                </li>
-            </ul>
-        </li>
-
-
-    <li>
-        <button class="upperMenu__button">
-            
-                
-                    lv
-                    
-                            <span class="upperMenu__icon"></span>
-                        
-                
-            
-                
-            
-                
-            
-        </button>
-        <ul class="upperMenu__submenu fontMenu" style="transform: translateX(-65%)">
-            
-                
-                        <li>
-                            <a href="/?gf=95&amp;cHash=bac0522f276f8fc6a56a14643ca3ea1a" hreflang="lv-LV" title="lv">
-                                <span>lv</span>
-                            </a>
-                        </li>
-                    
-            
-                
-                        <li>
-                            <a href="/en/?gf=95&amp;cHash=bac0522f276f8fc6a56a14643ca3ea1a" hreflang="en-GB" title="en">
-                                <span>en</span>
-                            </a>
-                        </li>
-                    
-            
-                
-            
-        </ul>
-    </li>
-
-
-</ul>
-            </div>
-            <div class="menuRibbon__mainMenu">
-                <nav class="mainMenu">
-            <div class="mainMenu__wrapper"><ul class="mainMenu__menu"><li><button class="mainMenu__link">Gribu studēt</button><ul class="mainMenu__submenu"><li><a href="/gribustudet/izvelies-panakumus/" class="mainMenu__submenuItem">Izvēlies panākumus!</a></li><li><a href="/gribustudet/ziemas-uznemsana/" class="mainMenu__submenuItem">Ziemas uzņemšana</a></li><li><a href="/gribustudet/studiju-programmas/bakalaura-limena-studijas/" class="mainMenu__submenuItem">Studiju programmas</a><ul><li><a href="/gribustudet/studiju-programmas/koledzas-limena-studijas/">Koledžas līmeņa studijas</a></li><li><a href="/gribustudet/studiju-programmas/bakalaura-limena-studijas/">Bakalaura līmeņa studijas</a></li><li><a href="/gribustudet/studiju-programmas/magistra-limena-studijas/">Maģistra līmeņa studijas</a></li><li><a href="/gribustudet/studiju-programmas/doktorantura/">Doktorantūra</a></li><li><a href="/gribustudet/studiju-programmas/rezidentura/">Rezidentūra</a></li></ul></li><li><a href="/gribustudet/uznemsanas-kartiba/pamatstudijas/" class="mainMenu__submenuItem">Uzņemšanas kārtība</a><ul><li><a href="/gribustudet/uznemsanas-kartiba/pamatstudijas/">Koledžas un bakalaura līmeņa studijas</a></li><li><a href="/gribustudet/uznemsanas-kartiba/magistra-limena-studijas/">Maģistra līmeņa studijas</a></li><li><a href="/gribustudet/uznemsanas-kartiba/doktorantura/">Doktorantūra</a></li><li><a href="/gribustudet/uznemsanas-kartiba/rezidentura/">Rezidentūra</a></li><li><a href="https://www.latvija.lv/Epakalpojumi/EP190">Statistika par studiju pieteikumiem VUPP<i class="icon-lu-outsource"></i></a></li></ul></li><li><a href="/gribustudet/stipendijas-un-krediti/stipendijas/" class="mainMenu__submenuItem">Stipendijas un kredīti</a><ul><li><a href="/gribustudet/stipendijas-un-krediti/stipendijas/">Stipendijas</a></li><li><a href="/gribustudet/stipendijas-un-krediti/krediti/">Kredīti</a></li></ul></li><li><a href="/gribustudet/normativie-dokumenti/" class="mainMenu__submenuItem">Normatīvie dokumenti</a></li><li><a href="/gribustudet/skoleniem/nodarbibas-skoleniem/" class="mainMenu__submenuItem">Skolēniem</a><ul><li><a href="https://www.karjera.lu.lv/" target="_blank">Karjeras centrs<i class="icon-lu-outsource"></i></a></li><li><a href="/gribustudet/skoleniem/nodarbibas-skoleniem/">Nodarbības skolēniem</a></li><li><a href="/gribustudet/skoleniem/sagatavosanas-kursi/">Sagatavošanas kursi</a></li><li><a href="/gribustudet/skoleniem/centralizetie-eksameni/">Centralizētie eksāmeni</a></li></ul></li><li><a href="/studijas/fakultates-1/" class="mainMenu__submenuItem">Fakultātes</a></li><li><a href="/par-mums/struktura/filiales/" class="mainMenu__submenuItem">Filiāles</a></li><li><a href="/gribustudet/studiju-atsaksana/" class="mainMenu__submenuItem">Studiju atsākšana</a><ul><li><a href="/gribustudet/studiju-atsaksana/">Pēc pārtraukuma</a></li><li><a href="/gribustudet/studiju-atsaksana/">Pārnākot no citas augstskolas vai koledžas</a></li><li><a href="/gribustudet/studiju-atsaksana/">Iepriekšējo rezultātu atzīšana</a></li></ul></li><li><a href="/gribustudet/studiju-programmu-informativie-materiali/" class="mainMenu__submenuItem">Studiju programmu informatīvie materiāli</a></li></ul></li><li><button class="mainMenu__link">Studijas</button><ul class="mainMenu__submenu"><li><a href="https://www.lu.lv/fileadmin/user_upload/LU.LV/www.lu.lv/Studijas/Ka-Rikoties_Covid_2_2022.pdf" target="_blank" class="mainMenu__submenuItem">Covid-19 - kā rīkoties<i class="icon-lu-outsource"></i></a></li><li><a href="/studijas/studiju-celvedis/akademiskais-kalendars/2021/2022-akademiska-gada-kalendars/" class="mainMenu__submenuItem">Studiju ceļvedis</a><ul><li><a href="/studijas/studiju-celvedis/akademiskais-kalendars/2021/2022-akademiska-gada-kalendars/">Akadēmiskais kalendārs</a></li><li><a href="/studijas/studiju-celvedis/studiju-organizacija/">Studiju kārtība un organizācija</a></li><li><a href="/studijas/studiju-celvedis/programmu-un-kursu-katalogi/">Programmu un kursu katalogi</a></li><li><a href="/studijas/studiju-celvedis/lekciju-saraksts/">Lekciju saraksts</a></li><li><a href="/studijas/studiju-celvedis/akademiska-etika/">Akadēmiskā ētika</a></li></ul></li><li><a href="/studijas/fakultates-1/" class="mainMenu__submenuItem">Fakultātes</a></li><li><a href="/par-mums/struktura/filiales/" target="_blank" class="mainMenu__submenuItem">Filiāles</a></li><li><a href="/gribustudet/studiju-programmas/bakalaura-limena-studijas/" class="mainMenu__submenuItem">Studiju programmas</a><ul><li><a href="/gribustudet/studiju-programmas/koledzas-limena-studijas/">Koledžas līmeņa studijas</a></li><li><a href="/gribustudet/studiju-programmas/bakalaura-limena-studijas/">Bakalaura līmeņa studijas</a></li><li><a href="/gribustudet/studiju-programmas/magistra-limena-studijas/">Maģistra līmeņa studijas</a></li><li><a href="/gribustudet/studiju-programmas/doktorantura/">Doktorantūra</a></li><li><a href="/gribustudet/studiju-programmas/rezidentura/">Rezidentūra</a></li></ul></li><li><a href="https://www.ozolzile.lu.lv/" target="_blank" class="mainMenu__submenuItem">Studiju projekts<i class="icon-lu-outsource"></i></a></li><li><a href="/studijas/bibliotekas/" class="mainMenu__submenuItem">Bibliotēkas</a><ul><li><a href="/studijas/bibliotekas/lu-akademiska-biblioteka/">LU Akadēmiskā bibliotēka</a></li><li><a href="/studijas/bibliotekas/lu-biblioteka/">LU Bibliotēka</a></li><li><a href="https://kopkatalogs.lv/F/?&amp;func=find-b-0&amp;local_base=lnc04" target="_blank">Kopkatalogs<i class="icon-lu-outsource"></i></a></li><li><a href="https://www.biblioteka.lu.lv/resursi/e-resursi-no-a-lidz-z/" target="_blank">E-resursi</a></li><li><a href="https://primolatvija.hosted.exlibrisgroup.com/primo-explore/search?vid=371KISCLU_VU1&amp;lang=lv_LV&amp;sortby=rank">Primo<i class="icon-lu-outsource"></i></a></li></ul></li><li><a href="/studijas/karjeras-centrs/" class="mainMenu__submenuItem">Karjeras centrs</a></li><li><a href="/studijas/studentu-padome/" class="mainMenu__submenuItem">Studentu padome</a></li><li><a href="/studijas/studijas-arzemes/" class="mainMenu__submenuItem">Studijas ārzemēs</a></li><li><a href="/studijas/studentu-sadzive/dienesta-viesnicas/" class="mainMenu__submenuItem">Studentu sadzīve</a><ul><li><a href="/studijas/studentu-sadzive/dienesta-viesnicas/">Dienesta viesnīcas</a></li><li><a href="/studijas/studentu-sadzive/naktsmitnu-saraksts/">Naktsmītņu saraksts studentu pašizolācijas nodrošināšanai</a></li><li><a href="/studijas/studentu-sadzive/edinasana/">Ēdināšana</a></li><li><a href="https://www.biblioteka.lu.lv/pakalpojumi/maksas-pakalpojumi/" target="_blank">Kopēšana un iesiešana<i class="icon-lu-outsource"></i></a></li><li><a href="/studijas/studentu-sadzive/auto-un-velo-novietosana/">Auto un velo novietošana</a></li><li><a href="https://mentors.lu.lv/" target="_blank">Mentori<i class="icon-lu-outsource"></i></a></li><li><a href="/studijas/studentu-sadzive/psihologa-atbalsts/">Psihologa atbalsts</a></li><li><a href="/studijas/studentu-sadzive/cilvekiem-ar-ipasam-vajadzibam/">Cilvēkiem ar īpašām vajadzībām</a></li><li><a href="/studijas/studentu-sadzive/veseliga-vide/">Veselīga vide</a></li></ul></li><li><a href="/studijas/arpus-studijam/organizacijas/" class="mainMenu__submenuItem">Ārpus studijām</a><ul><li><a href="/studijas/arpus-studijam/organizacijas/">Organizācijas</a></li><li><a href="/sports/" target="_blank">Sports</a></li><li><a href="https://www.kultura.lu.lv/" target="_blank">Kultūra<i class="icon-lu-outsource"></i></a></li><li><a href="/studijas/arpus-studijam/vasaras-skolas/">Vasaras skolas</a></li></ul></li><li><a href="/studijas/muzizglitiba/" class="mainMenu__submenuItem">Mūžizglītība</a><ul><li><a href="/studijas/muzizglitiba/talakizglitibas-kursi/">Tālākizglītības kursi un semināri</a></li><li><a href="/studijas/muzizglitiba/kursi-klausitajiem/">Kursi klausītājiem</a></li><li><a href="/studijas/muzizglitiba/optometristu-profesionalas-kvalifikacijas-atbilstibas-parbaude/">Optometristu profesionālās kvalifikācijas atbilstības pārbaude</a></li><li><a href="/studijas/muzizglitiba/starptautiskie-valodu-eksameni/">Starptautiskie valodu eksāmeni</a></li><li><a href="https://www.openminded.lv/" target="_blank">LU Open Minded<i class="icon-lu-outsource"></i></a></li><li><a href="https://www.vumc.lu.lv/" target="_blank">LU Vadības un uzņēmējdarbības mācību centrs (VUMC)<i class="icon-lu-outsource"></i></a></li></ul></li></ul></li><li><button class="mainMenu__link">Zinātne</button><ul class="mainMenu__submenu"><li><a href="/zinatne/aktuali/" class="mainMenu__submenuItem">Aktuāli</a></li><li><a href="/zinatne/programmas-un-projekti/" class="mainMenu__submenuItem">Programmas un projekti</a><ul><li><a href="/zinatne/programmas-un-projekti/starptautiskas-programmas-un-projekti/">Starptautiskās programmas un projekti</a></li><li><a href="/zinatne/programmas-un-projekti/es-strukturfondi/">ES struktūrfondi</a></li><li><a href="/zinatne/programmas-un-projekti/nacionalas-programmas-un-projekti/">Nacionālās programmas un projekti</a></li><li><a href="/zinatne/programmas-un-projekti/lu-finansetie-projekti/">LU finansētie projekti</a></li><li><a href="/zinatne/programmas-un-projekti/citi-projekti-un-petijumi/">Citi projekti un pētījumi</a></li></ul></li><li><a href="/par-mums/struktura/instituti/" class="mainMenu__submenuItem">Institūti</a></li><li><a href="/zinatne/zinatnes-komunikacija/zinatnes-kafejnica/" class="mainMenu__submenuItem">Zinātnes komunikācija</a><ul><li><a href="/zinatne/zinatnes-komunikacija/studijas-petnieciba-inovacijas/">Studijas, pētniecība, inovācijas</a></li><li><a href="/zinatne/zinatnes-komunikacija/zinatnes-kafejnica/">Zinātnes kafejnīca</a></li><li><a href="/zinatne/zinatnes-komunikacija/zinatnieku-nakts/">Zinātnieku nakts</a></li></ul></li><li><a href="/zinatne/sasniegumi/" class="mainMenu__submenuItem">Sasniegumi</a><ul><li><a href="/zinatne/sasniegumi/atzinibas/">Atzinības</a></li><li><a href="/zinatne/sasniegumi/lza-novertetais/">LZA novērtētais</a></li></ul></li><li><a href="/zinatne/atbalsts-petniecibai-lu/zinatniskas-darbibas-atbalsta-programma/" class="mainMenu__submenuItem">Atbalsts pētniecībai LU</a><ul><li><a href="/zinatne/atbalsts-petniecibai-lu/zinatniskas-darbibas-atbalsta-programma/">Zinātniskās darbības atbalsta programma</a></li><li><a href="/zinatne/atbalsts-petniecibai-lu/projektu-istenosanas-noteikumi/">Projektu īstenošanas noteikumi</a></li><li><a href="/zinatne/atbalsts-petniecibai-lu/eurostat/">Eurostat</a></li></ul></li><li><a href="/zinatne/petnieciba/prioritarie-petniecibas-virzieni/" class="mainMenu__submenuItem">Pētniecība</a><ul><li><a href="/zinatne/petnieciba/prioritarie-petniecibas-virzieni/">Prioritārie pētniecības virzieni</a></li><li><a href="/zinatne/petnieciba/lu-zinatnu-padome/">LU Zinātņu padome</a></li><li><a href="/zinatne/petnieciba/petijumu-etika/">Pētījumu ētika</a></li><li><a href="/zinatne/petnieciba/dokumenti/">Dokumenti</a></li><li><a href="/zinatne/petnieciba/lzp-eksperti/">LZP eksperti</a></li><li><a href="/zinatne/petnieciba/akreditetas-laboratorijas/">Akreditētās laboratorijas</a></li><li><a href="/zinatne/petnieciba/kolekcijas/">Kolekcijas</a></li></ul></li><li><a href="/zinatne/zinatniskas-publikacijas/citetakas-publikacijas/" class="mainMenu__submenuItem">Zinātniskās publikācijas</a><ul><li><a href="/zinatne/zinatniskas-publikacijas/citetakas-publikacijas/">LU citētākās publikācijas</a></li><li><a href="/zinatne/sasniegumi/publikacijas/">Zinātnisko publikāciju statistika</a></li><li><a href="/zinatne/zinatniskas-publikacijas/zinatniskie-zurnali-un-rakstu-krajumi/">Zinātniskie žurnāli un rakstu krājumi</a></li><li><a href="/zinatne/zinatniskas-publikacijas/tautas-attistibas-parskati/">Tautas attīstības pārskati</a></li></ul></li><li><a href="/zinatne/pecdoktorantura/" class="mainMenu__submenuItem">Pēcdoktorantūra</a><ul><li><a href="/zinatne/pecdoktorantura/1-karta/">1. kārta</a></li><li><a href="/zinatne/pecdoktorantura/2-karta/">2. kārta</a></li><li><a href="/zinatne/pecdoktorantura/3-karta/">3. kārta</a></li><li><a href="/zinatne/pecdoktorantura/4karta/">4. kārta</a></li><li><a href="/zinatne/pecdoktorantura/logo/">Logo</a></li><li><a href="/zinatne/pecdoktorantura/statistika/">Statistika</a></li></ul></li><li><a href="/zinatne/konferences/" class="mainMenu__submenuItem">Konferences</a><ul><li><a href="/zinatne/konferences/lu-ikgadeja-starptautiska-zinatniska-konference/">LU ikgadējā starptautiskā zinātniskā konference</a></li><li><a href="/zinatne/konferences/citas-lu-konferences/">Citas LU  konferences</a></li></ul></li><li><a href="/zinatne/intelektuala-ipasuma-izsoles/" class="mainMenu__submenuItem">Intelektuālā īpašuma izsoles</a></li><li><a href="http://sadarbiba.lu.lv/" target="_blank" class="mainMenu__submenuItem">Sadarbība ar uzņēmējiem<i class="icon-lu-outsource"></i></a></li><li><a href="https://www.napd.lu.lv/" target="_blank" class="mainMenu__submenuItem">Nacionālais atvērtās piekļuves dienests<i class="icon-lu-outsource"></i></a></li><li><a href="https://scientificservices.eu" target="_blank" class="mainMenu__submenuItem">UseScience<i class="icon-lu-outsource"></i></a></li></ul></li><li><button class="mainMenu__link">Sadarbība</button><ul class="mainMenu__submenu"><li><a href="/sadarbiba/starptautiska-sadarbiba/" class="mainMenu__submenuItem">Starptautiskā sadarbība</a><ul><li><a href="/sadarbiba/starptautiska-sadarbiba/erasmus-plus/">Erasmus+</a></li><li><a href="/sadarbiba/starptautiska-sadarbiba/forthem-alianse/">FORTHEM alianse</a></li></ul></li><li><a href="/sadarbiba/arvalstu-komercagenti/" class="mainMenu__submenuItem">Ārvalstu komercaģenti</a></li><li><a href="http://sadarbiba.lu.lv/" target="_blank" class="mainMenu__submenuItem">Sadarbība ar uzņēmējiem<i class="icon-lu-outsource"></i></a></li><li><a href="http://absolventuklubs.lv" target="_blank" class="mainMenu__submenuItem">Absolventu portāls<i class="icon-lu-outsource"></i></a></li><li><a href="https://e-karjera.lu.lv/" target="_blank" class="mainMenu__submenuItem">e-karjera<i class="icon-lu-outsource"></i></a></li><li><a href="https://www.lu.lv/fileadmin/user_upload/LU.LV/www.lu.lv/Dokumenti/Cenradis_LU.pdf" target="_blank" class="mainMenu__submenuItem">Reklāmas iespējas<i class="icon-lu-outsource"></i></a></li><li><a href="/sadarbiba/lu-inovaciju-centrs-lumic/" class="mainMenu__submenuItem">LU Inovāciju centrs LUMIC</a></li><li><a href="/sadarbiba/fonds/" class="mainMenu__submenuItem">LU Fonds</a></li><li><a href="/sadarbiba/lu-studentu-biznesa-inkubators/" class="mainMenu__submenuItem">LU studentu Biznesa inkubators</a></li><li><a href="https://www.lumic.lu.lv/inovaciju-granti-studentiem/universitasu-inkubators/" target="_blank" class="mainMenu__submenuItem">Universitāšu inkubators</a></li><li><a href="/sadarbiba/erasmus-starptautiska-nedela-2020/" class="mainMenu__submenuItem">Erasmus+ starptautiskā nedēļa ārvalstu personālam 2021</a><ul><li><a href="http://docs.google.com/forms/d/e/1FAIpQLSebiFviIs7H1IZnBrgdyBZ9pY-xe0Yd0Noq4V69FCnSQo7XEg/viewform">Apply now<i class="icon-lu-outsource"></i></a></li></ul></li></ul></li><li><button class="mainMenu__link">Par mums</button><ul class="mainMenu__submenu"><li><a href="/par-mums/par-lu/" class="mainMenu__submenuItem">Par LU</a></li><li><a href="https://www.akademiskaiscentrs.lu.lv/" class="mainMenu__submenuItem">Akadēmiskais centrs<i class="icon-lu-outsource"></i></a></li><li><a href="/par-mums/lu-100/" class="mainMenu__submenuItem">LU 100</a></li><li><a href="/par-mums/rektors/" class="mainMenu__submenuItem">Rektors</a></li><li><a href="/par-mums/lu-senats/" class="mainMenu__submenuItem">LU Senāts</a></li><li><a href="/par-mums/vadiba/" class="mainMenu__submenuItem">Vadība</a><ul><li><a href="https://www.lu.lv/fileadmin/user_upload/LU.LV/www.lu.lv/Dokumenti/Dokumenti_LV/1._VISPAREJIE_DOKUMENTI/LU_strategija_buklets_2021.pdf" target="_blank">LU stratēģija 2021–2027<i class="icon-lu-outsource"></i></a></li></ul></li><li><a href="/par-mums/satversmes-sapulce/" class="mainMenu__submenuItem">Satversmes sapulce</a></li><li><a href="/par-mums/akademiska-skirejtiesa/" class="mainMenu__submenuItem">Akadēmiskā šķīrējtiesa</a></li><li><a href="/par-mums/akademiskas-etikas-komisija/" class="mainMenu__submenuItem">Akadēmiskās ētikas komisija</a></li><li><a href="/par-mums/padomdeveju-institucijas/padomnieku-konvents/" class="mainMenu__submenuItem">Padomdevēju institūcijas</a><ul><li><a href="/par-mums/padomdeveju-institucijas/padomnieku-konvents/">Padomnieku konvents</a></li><li><a href="/par-mums/padomdeveju-institucijas/strategijas-padome/">Stratēģijas padome</a></li><li><a href="/zinatne/petnieciba/lu-zinatnu-padome/">Zinātnes padomes</a></li><li><a href="/par-mums/padomdeveju-institucijas/kvalitates-novertesanas-komisija/">Kvalitātes novērtēšanas komisija</a></li><li><a href="/par-mums/padomdeveju-institucijas/ekopadome/">Ekopadome</a></li></ul></li><li><a href="/par-mums/administracija/departamenti/" class="mainMenu__submenuItem">Administrācija</a><ul><li><a href="/par-mums/administracija/departamenti/">Departamenti</a></li><li><a href="/par-mums/administracija/rektora-birojs/">Rektora birojs</a></li><li><a href="/par-mums/administracija/administracijas-atbalstu-grupa/">Administrācijas atbalstu grupa</a></li></ul></li><li><a href="/par-mums/zimols/gerbonis-himna-un-karogs/" class="mainMenu__submenuItem">Zīmols</a><ul><li><a href="/par-mums/zimols/misija-vizija-vertibas/">Misija, vīzija, vērtības</a></li><li><a href="/par-mums/zimols/gerbonis-himna-un-karogs/">Ģerbonis, himna un karogs</a></li><li><a href="/par-mums/zimols/suveniri/">Suvenīri</a></li><li><a href="/par-mums/zimols/logotipi-un-sagataves/">Logotipi un sagataves</a></li></ul></li><li><a href="/par-mums/skaitli-un-fakti/" class="mainMenu__submenuItem">Skaitļi un fakti</a></li><li><a href="/par-mums/vesture/lu-laika-gaita/" class="mainMenu__submenuItem">Vēsture</a><ul><li><a href="/par-mums/vesture/lu-laika-gaita/">LU laika gaitā</a></li><li><a href="/par-mums/vesture/tradicijas/">Tradīcijas</a></li></ul></li><li><a href="/par-mums/iepirkumi-un-izsoles-nomas-objektu-atlase/" class="mainMenu__submenuItem">Iepirkumi un izsoles/ nomas objektu atlase</a></li><li><a href="/par-mums/struktura/strukturshema/" class="mainMenu__submenuItem">Struktūra</a><ul><li><a href="/par-mums/struktura/strukturshema/">Struktūrshēma</a></li><li><a href="/studijas/fakultates-1/">Fakultātes</a></li><li><a href="/par-mums/struktura/instituti/">Institūti</a></li><li><a href="/par-mums/struktura/lu-centri/">LU centri</a></li><li><a href="/par-mums/struktura/lu-regionalais-centrs/">LU Reģionālais centrs</a></li><li><a href="/par-mums/struktura/filiales/">Filiāles</a></li><li><a href="/par-mums/struktura/koledzas/">Koledžas</a></li><li><a href="/par-mums/struktura/bibliotekas/">Bibliotēkas</a></li><li><a href="/par-mums/struktura/lu-muzejs/">LU Muzejs</a></li><li><a href="/par-mums/struktura/lu-botaniskais-darzs/">LU Botāniskais dārzs</a></li><li><a href="/par-mums/struktura/lu-rododendru-audzetava-babite/">LU Rododendru audzētava “Babīte”</a></li><li><a href="/par-mums/struktura/lu-akademiskais-apgads/">LU Akadēmiskais apgāds</a></li><li><a href="/par-mums/struktura/lu-baldones-observatorija/">LU Baldones observatorija</a></li><li><a href="https://www.arhivs.lu.lv/" target="_blank">LU Arhīvs<i class="icon-lu-outsource"></i></a></li></ul></li><li><a href="/sports/" target="_blank" class="mainMenu__submenuItem">Sports</a></li><li><a href="https://www.kultura.lu.lv/" target="_blank" class="mainMenu__submenuItem">Kultūra<i class="icon-lu-outsource"></i></a></li><li><a href="/par-mums/lu-mediji/" class="mainMenu__submenuItem">LU mediji</a><ul><li><a href="/par-mums/lu-mediji/zinas/">Ziņas</a></li><li><a href="/par-mums/lu-mediji/zurnali/">Žurnāli</a></li><li><a href="http://foto.lu.lv/" target="_blank">Fotoarhīvs<i class="icon-lu-outsource"></i></a></li><li><a href="/par-mums/lu-mediji/tiesraides/">Tiešraides</a></li><li><a href="http://www.naba.lv" target="_blank">Radio<i class="icon-lu-outsource"></i></a></li></ul></li><li><a href="/par-mums/dokumenti/" class="mainMenu__submenuItem">Dokumenti</a></li><li><a href="/par-mums/kontakti/" class="mainMenu__submenuItem">Kontakti</a><ul><li><a href="/par-mums/kontakti/rekviziti/">Rekvizīti</a></li></ul></li><li><a href="/notikumi/menesis/" class="mainMenu__submenuItem">Notikumu kalendārs</a></li><li><a href="/par-mums/vakances/" class="mainMenu__submenuItem">Vakances</a></li></ul></li></ul>        <button class="mainMenu__mobileButton burgerButton">
-        <span class="burgerButton__content">
-            <span class="burgerButton__line burgerButton__line-top"></span>
-            <span class="burgerButton__line burgerButton__line-center"></span>
-            <span class="burgerButton__line burgerButton__line-bottom"></span>
-        </span>
-        </button></div>
-        </nav>
-            </div>
-        </div>
-                <div class="mobileMenu__overlay"></div><nav class="mobileMenu">
-            <div class="mobileMenu__content"><div class="mobileMenu__scene">
-                    <ul class="mobileMenu__bottomLevel"><li><button class="mobileMenu__button" data-menu-id="49128">Gribu studēt<i class="icon-lu-bulta-20"></i></button><div class="mobileMenu__submenuPage" data-menu-id="49128"><button class="mobileMenu__backButton"><i class="icon-lu-bulta-10"></i>Gribu studēt</button><div class="mobileMenu__submenuContent">
-                                        <ul class="asideMenu asideMenu-white" id="asideMenu_49128"><li class="asideMenu__Item"><a href="/gribustudet/izvelies-panakumus/" class="asideMenu__button asideMenu__link">Izvēlies panākumus!</a></li><li class="asideMenu__Item"><a href="/gribustudet/ziemas-uznemsana/" class="asideMenu__button asideMenu__link">Ziemas uzņemšana</a></li><li class="asideMenu__Item"><div id="asideMenuHeading_49128_49153">
-                                                        <h3><a href="/gribustudet/studiju-programmas/bakalaura-limena-studijas/" class="asideMenu__button collapsed" data-toggle="collapse" data-target="#asideMenuItem_49128_49153" aria-expanded="true" aria-controls="asideMenuItem_49128_49153">Studiju programmas<span class="asideMenu__icon"></span></a></h3>
-                                                    </div><ul id="asideMenuItem_49128_49153" class="asideMenu__submenu collapse"
-                                                        aria-labelledby="asideMenuHeading"
-                                                        data-parent="#asideMenu_49128"><li><a href="/gribustudet/studiju-programmas/koledzas-limena-studijas/" class="asideMenu__subLink">Koledžas līmeņa studijas</a></li><li><a href="/gribustudet/studiju-programmas/bakalaura-limena-studijas/" class="asideMenu__subLink">Bakalaura līmeņa studijas</a></li><li><a href="/gribustudet/studiju-programmas/magistra-limena-studijas/" class="asideMenu__subLink">Maģistra līmeņa studijas</a></li><li><a href="/gribustudet/studiju-programmas/doktorantura/" class="asideMenu__subLink">Doktorantūra</a></li><li><a href="/gribustudet/studiju-programmas/rezidentura/" class="asideMenu__subLink">Rezidentūra</a></li></ul></li><li class="asideMenu__Item"><div id="asideMenuHeading_49128_49148">
-                                                        <h3><a href="/gribustudet/uznemsanas-kartiba/pamatstudijas/" class="asideMenu__button collapsed" data-toggle="collapse" data-target="#asideMenuItem_49128_49148" aria-expanded="true" aria-controls="asideMenuItem_49128_49148">Uzņemšanas kārtība<span class="asideMenu__icon"></span></a></h3>
-                                                    </div><ul id="asideMenuItem_49128_49148" class="asideMenu__submenu collapse"
-                                                        aria-labelledby="asideMenuHeading"
-                                                        data-parent="#asideMenu_49128"><li><a href="/gribustudet/uznemsanas-kartiba/pamatstudijas/" class="asideMenu__subLink">Koledžas un bakalaura līmeņa studijas</a></li><li><a href="/gribustudet/uznemsanas-kartiba/magistra-limena-studijas/" class="asideMenu__subLink">Maģistra līmeņa studijas</a></li><li><a href="/gribustudet/uznemsanas-kartiba/doktorantura/" class="asideMenu__subLink">Doktorantūra</a></li><li><a href="/gribustudet/uznemsanas-kartiba/rezidentura/" class="asideMenu__subLink">Rezidentūra</a></li><li><a href="https://www.latvija.lv/Epakalpojumi/EP190" class="asideMenu__subLink">Statistika par studiju pieteikumiem VUPP<i class="icon-lu-outsource"></i></a></li></ul></li><li class="asideMenu__Item"><div id="asideMenuHeading_49128_49157">
-                                                        <h3><a href="/gribustudet/stipendijas-un-krediti/stipendijas/" class="asideMenu__button collapsed" data-toggle="collapse" data-target="#asideMenuItem_49128_49157" aria-expanded="true" aria-controls="asideMenuItem_49128_49157">Stipendijas un kredīti<span class="asideMenu__icon"></span></a></h3>
-                                                    </div><ul id="asideMenuItem_49128_49157" class="asideMenu__submenu collapse"
-                                                        aria-labelledby="asideMenuHeading"
-                                                        data-parent="#asideMenu_49128"><li><a href="/gribustudet/stipendijas-un-krediti/stipendijas/" class="asideMenu__subLink">Stipendijas</a></li><li><a href="/gribustudet/stipendijas-un-krediti/krediti/" class="asideMenu__subLink">Kredīti</a></li></ul></li><li class="asideMenu__Item"><a href="/gribustudet/normativie-dokumenti/" class="asideMenu__button asideMenu__link">Normatīvie dokumenti</a></li><li class="asideMenu__Item"><div id="asideMenuHeading_49128_49151">
-                                                        <h3><a href="/gribustudet/skoleniem/nodarbibas-skoleniem/" class="asideMenu__button collapsed" data-toggle="collapse" data-target="#asideMenuItem_49128_49151" aria-expanded="true" aria-controls="asideMenuItem_49128_49151">Skolēniem<span class="asideMenu__icon"></span></a></h3>
-                                                    </div><ul id="asideMenuItem_49128_49151" class="asideMenu__submenu collapse"
-                                                        aria-labelledby="asideMenuHeading"
-                                                        data-parent="#asideMenu_49128"><li><a href="https://www.karjera.lu.lv/" target="_blank" class="asideMenu__subLink">Karjeras centrs<i class="icon-lu-outsource"></i></a></li><li><a href="/gribustudet/skoleniem/nodarbibas-skoleniem/" class="asideMenu__subLink">Nodarbības skolēniem</a></li><li><a href="/gribustudet/skoleniem/sagatavosanas-kursi/" class="asideMenu__subLink">Sagatavošanas kursi</a></li><li><a href="/gribustudet/skoleniem/centralizetie-eksameni/" class="asideMenu__subLink">Centralizētie eksāmeni</a></li></ul></li><li class="asideMenu__Item"><a href="/studijas/fakultates-1/" class="asideMenu__button asideMenu__link">Fakultātes</a></li><li class="asideMenu__Item"><a href="/par-mums/struktura/filiales/" class="asideMenu__button asideMenu__link">Filiāles</a></li><li class="asideMenu__Item"><div id="asideMenuHeading_49128_49149">
-                                                        <h3><a href="/gribustudet/studiju-atsaksana/" class="asideMenu__button collapsed" data-toggle="collapse" data-target="#asideMenuItem_49128_49149" aria-expanded="true" aria-controls="asideMenuItem_49128_49149">Studiju atsākšana<span class="asideMenu__icon"></span></a></h3>
-                                                    </div><ul id="asideMenuItem_49128_49149" class="asideMenu__submenu collapse"
-                                                        aria-labelledby="asideMenuHeading"
-                                                        data-parent="#asideMenu_49128"><li><a href="/gribustudet/studiju-atsaksana/" class="asideMenu__subLink">Pēc pārtraukuma</a></li><li><a href="/gribustudet/studiju-atsaksana/" class="asideMenu__subLink">Pārnākot no citas augstskolas vai koledžas</a></li><li><a href="/gribustudet/studiju-atsaksana/" class="asideMenu__subLink">Iepriekšējo rezultātu atzīšana</a></li></ul></li><li class="asideMenu__Item"><a href="/gribustudet/studiju-programmu-informativie-materiali/" class="asideMenu__button asideMenu__link">Studiju programmu informatīvie materiāli</a></li></ul>
-                                    </div></div></li><li><button class="mobileMenu__button" data-menu-id="49130">Studijas<i class="icon-lu-bulta-20"></i></button><div class="mobileMenu__submenuPage" data-menu-id="49130"><button class="mobileMenu__backButton"><i class="icon-lu-bulta-10"></i>Studijas</button><div class="mobileMenu__submenuContent">
-                                        <ul class="asideMenu asideMenu-white" id="asideMenu_49130"><li class="asideMenu__Item"><a href="https://www.lu.lv/fileadmin/user_upload/LU.LV/www.lu.lv/Studijas/Ka-Rikoties_Covid_2_2022.pdf" target="_blank" class="asideMenu__button asideMenu__link">Covid-19 - kā rīkoties<i class="icon-lu-outsource"></i></a></li><li class="asideMenu__Item"><div id="asideMenuHeading_49130_49152">
-                                                        <h3><a href="/studijas/studiju-celvedis/akademiskais-kalendars/2021/2022-akademiska-gada-kalendars/" class="asideMenu__button collapsed" data-toggle="collapse" data-target="#asideMenuItem_49130_49152" aria-expanded="true" aria-controls="asideMenuItem_49130_49152">Studiju ceļvedis<span class="asideMenu__icon"></span></a></h3>
-                                                    </div><ul id="asideMenuItem_49130_49152" class="asideMenu__submenu collapse"
-                                                        aria-labelledby="asideMenuHeading"
-                                                        data-parent="#asideMenu_49130"><li><a href="/studijas/studiju-celvedis/akademiskais-kalendars/2021/2022-akademiska-gada-kalendars/" class="asideMenu__subLink">Akadēmiskais kalendārs</a></li><li><a href="/studijas/studiju-celvedis/studiju-organizacija/" class="asideMenu__subLink">Studiju kārtība un organizācija</a></li><li><a href="/studijas/studiju-celvedis/programmu-un-kursu-katalogi/" class="asideMenu__subLink">Programmu un kursu katalogi</a></li><li><a href="/studijas/studiju-celvedis/lekciju-saraksts/" class="asideMenu__subLink">Lekciju saraksts</a></li><li><a href="/studijas/studiju-celvedis/akademiska-etika/" class="asideMenu__subLink">Akadēmiskā ētika</a></li></ul></li><li class="asideMenu__Item"><a href="/studijas/fakultates-1/" class="asideMenu__button asideMenu__link">Fakultātes</a></li><li class="asideMenu__Item"><a href="/par-mums/struktura/filiales/" target="_blank" class="asideMenu__button asideMenu__link">Filiāles</a></li><li class="asideMenu__Item"><div id="asideMenuHeading_49130_86753">
-                                                        <h3><a href="/gribustudet/studiju-programmas/bakalaura-limena-studijas/" class="asideMenu__button collapsed" data-toggle="collapse" data-target="#asideMenuItem_49130_86753" aria-expanded="true" aria-controls="asideMenuItem_49130_86753">Studiju programmas<span class="asideMenu__icon"></span></a></h3>
-                                                    </div><ul id="asideMenuItem_49130_86753" class="asideMenu__submenu collapse"
-                                                        aria-labelledby="asideMenuHeading"
-                                                        data-parent="#asideMenu_49130"><li><a href="/gribustudet/studiju-programmas/koledzas-limena-studijas/" class="asideMenu__subLink">Koledžas līmeņa studijas</a></li><li><a href="/gribustudet/studiju-programmas/bakalaura-limena-studijas/" class="asideMenu__subLink">Bakalaura līmeņa studijas</a></li><li><a href="/gribustudet/studiju-programmas/magistra-limena-studijas/" class="asideMenu__subLink">Maģistra līmeņa studijas</a></li><li><a href="/gribustudet/studiju-programmas/doktorantura/" class="asideMenu__subLink">Doktorantūra</a></li><li><a href="/gribustudet/studiju-programmas/rezidentura/" class="asideMenu__subLink">Rezidentūra</a></li></ul></li><li class="asideMenu__Item"><a href="https://www.ozolzile.lu.lv/" target="_blank" class="asideMenu__button asideMenu__link">Studiju projekts<i class="icon-lu-outsource"></i></a></li><li class="asideMenu__Item"><div id="asideMenuHeading_49130_53705">
-                                                        <h3><a href="/studijas/bibliotekas/" class="asideMenu__button collapsed" data-toggle="collapse" data-target="#asideMenuItem_49130_53705" aria-expanded="true" aria-controls="asideMenuItem_49130_53705">Bibliotēkas<span class="asideMenu__icon"></span></a></h3>
-                                                    </div><ul id="asideMenuItem_49130_53705" class="asideMenu__submenu collapse"
-                                                        aria-labelledby="asideMenuHeading"
-                                                        data-parent="#asideMenu_49130"><li><a href="/studijas/bibliotekas/lu-akademiska-biblioteka/" class="asideMenu__subLink">LU Akadēmiskā bibliotēka</a></li><li><a href="/studijas/bibliotekas/lu-biblioteka/" class="asideMenu__subLink">LU Bibliotēka</a></li><li><a href="https://kopkatalogs.lv/F/?&amp;func=find-b-0&amp;local_base=lnc04" target="_blank" class="asideMenu__subLink">Kopkatalogs<i class="icon-lu-outsource"></i></a></li><li><a href="https://www.biblioteka.lu.lv/resursi/e-resursi-no-a-lidz-z/" target="_blank" class="asideMenu__subLink">E-resursi</a></li><li><a href="https://primolatvija.hosted.exlibrisgroup.com/primo-explore/search?vid=371KISCLU_VU1&amp;lang=lv_LV&amp;sortby=rank" class="asideMenu__subLink">Primo<i class="icon-lu-outsource"></i></a></li></ul></li><li class="asideMenu__Item"><a href="/studijas/karjeras-centrs/" class="asideMenu__button asideMenu__link">Karjeras centrs</a></li><li class="asideMenu__Item"><a href="/studijas/studentu-padome/" class="asideMenu__button asideMenu__link">Studentu padome</a></li><li class="asideMenu__Item"><a href="/studijas/studijas-arzemes/" class="asideMenu__button asideMenu__link">Studijas ārzemēs</a></li><li class="asideMenu__Item"><div id="asideMenuHeading_49130_49160">
-                                                        <h3><a href="/studijas/studentu-sadzive/dienesta-viesnicas/" class="asideMenu__button collapsed" data-toggle="collapse" data-target="#asideMenuItem_49130_49160" aria-expanded="true" aria-controls="asideMenuItem_49130_49160">Studentu sadzīve<span class="asideMenu__icon"></span></a></h3>
-                                                    </div><ul id="asideMenuItem_49130_49160" class="asideMenu__submenu collapse"
-                                                        aria-labelledby="asideMenuHeading"
-                                                        data-parent="#asideMenu_49130"><li><a href="/studijas/studentu-sadzive/dienesta-viesnicas/" class="asideMenu__subLink">Dienesta viesnīcas</a></li><li><a href="/studijas/studentu-sadzive/naktsmitnu-saraksts/" class="asideMenu__subLink">Naktsmītņu saraksts studentu pašizolācijas nodrošināšanai</a></li><li><a href="/studijas/studentu-sadzive/edinasana/" class="asideMenu__subLink">Ēdināšana</a></li><li><a href="https://www.biblioteka.lu.lv/pakalpojumi/maksas-pakalpojumi/" target="_blank" class="asideMenu__subLink">Kopēšana un iesiešana<i class="icon-lu-outsource"></i></a></li><li><a href="/studijas/studentu-sadzive/auto-un-velo-novietosana/" class="asideMenu__subLink">Auto un velo novietošana</a></li><li><a href="https://mentors.lu.lv/" target="_blank" class="asideMenu__subLink">Mentori<i class="icon-lu-outsource"></i></a></li><li><a href="/studijas/studentu-sadzive/psihologa-atbalsts/" class="asideMenu__subLink">Psihologa atbalsts</a></li><li><a href="/studijas/studentu-sadzive/cilvekiem-ar-ipasam-vajadzibam/" class="asideMenu__subLink">Cilvēkiem ar īpašām vajadzībām</a></li><li><a href="/studijas/studentu-sadzive/veseliga-vide/" class="asideMenu__subLink">Veselīga vide</a></li></ul></li><li class="asideMenu__Item"><div id="asideMenuHeading_49130_49161">
-                                                        <h3><a href="/studijas/arpus-studijam/organizacijas/" class="asideMenu__button collapsed" data-toggle="collapse" data-target="#asideMenuItem_49130_49161" aria-expanded="true" aria-controls="asideMenuItem_49130_49161">Ārpus studijām<span class="asideMenu__icon"></span></a></h3>
-                                                    </div><ul id="asideMenuItem_49130_49161" class="asideMenu__submenu collapse"
-                                                        aria-labelledby="asideMenuHeading"
-                                                        data-parent="#asideMenu_49130"><li><a href="/studijas/arpus-studijam/organizacijas/" class="asideMenu__subLink">Organizācijas</a></li><li><a href="/sports/" target="_blank" class="asideMenu__subLink">Sports</a></li><li><a href="https://www.kultura.lu.lv/" target="_blank" class="asideMenu__subLink">Kultūra<i class="icon-lu-outsource"></i></a></li><li><a href="/studijas/arpus-studijam/vasaras-skolas/" class="asideMenu__subLink">Vasaras skolas</a></li></ul></li><li class="asideMenu__Item"><div id="asideMenuHeading_49130_49162">
-                                                        <h3><a href="/studijas/muzizglitiba/" class="asideMenu__button collapsed" data-toggle="collapse" data-target="#asideMenuItem_49130_49162" aria-expanded="true" aria-controls="asideMenuItem_49130_49162">Mūžizglītība<span class="asideMenu__icon"></span></a></h3>
-                                                    </div><ul id="asideMenuItem_49130_49162" class="asideMenu__submenu collapse"
-                                                        aria-labelledby="asideMenuHeading"
-                                                        data-parent="#asideMenu_49130"><li><a href="/studijas/muzizglitiba/talakizglitibas-kursi/" class="asideMenu__subLink">Tālākizglītības kursi un semināri</a></li><li><a href="/studijas/muzizglitiba/kursi-klausitajiem/" class="asideMenu__subLink">Kursi klausītājiem</a></li><li><a href="/studijas/muzizglitiba/optometristu-profesionalas-kvalifikacijas-atbilstibas-parbaude/" class="asideMenu__subLink">Optometristu profesionālās kvalifikācijas atbilstības pārbaude</a></li><li><a href="/studijas/muzizglitiba/starptautiskie-valodu-eksameni/" class="asideMenu__subLink">Starptautiskie valodu eksāmeni</a></li><li><a href="https://www.openminded.lv/" target="_blank" class="asideMenu__subLink">LU Open Minded<i class="icon-lu-outsource"></i></a></li><li><a href="https://www.vumc.lu.lv/" target="_blank" class="asideMenu__subLink">LU Vadības un uzņēmējdarbības mācību centrs (VUMC)<i class="icon-lu-outsource"></i></a></li></ul></li></ul>
-                                    </div></div></li><li><button class="mobileMenu__button" data-menu-id="49131">Zinātne<i class="icon-lu-bulta-20"></i></button><div class="mobileMenu__submenuPage" data-menu-id="49131"><button class="mobileMenu__backButton"><i class="icon-lu-bulta-10"></i>Zinātne</button><div class="mobileMenu__submenuContent">
-                                        <ul class="asideMenu asideMenu-white" id="asideMenu_49131"><li class="asideMenu__Item"><a href="/zinatne/aktuali/" class="asideMenu__button asideMenu__link">Aktuāli</a></li><li class="asideMenu__Item"><div id="asideMenuHeading_49131_49187">
-                                                        <h3><a href="/zinatne/programmas-un-projekti/" class="asideMenu__button collapsed" data-toggle="collapse" data-target="#asideMenuItem_49131_49187" aria-expanded="true" aria-controls="asideMenuItem_49131_49187">Programmas un projekti<span class="asideMenu__icon"></span></a></h3>
-                                                    </div><ul id="asideMenuItem_49131_49187" class="asideMenu__submenu collapse"
-                                                        aria-labelledby="asideMenuHeading"
-                                                        data-parent="#asideMenu_49131"><li><a href="/zinatne/programmas-un-projekti/starptautiskas-programmas-un-projekti/" class="asideMenu__subLink">Starptautiskās programmas un projekti</a></li><li><a href="/zinatne/programmas-un-projekti/es-strukturfondi/" class="asideMenu__subLink">ES struktūrfondi</a></li><li><a href="/zinatne/programmas-un-projekti/nacionalas-programmas-un-projekti/" class="asideMenu__subLink">Nacionālās programmas un projekti</a></li><li><a href="/zinatne/programmas-un-projekti/lu-finansetie-projekti/" class="asideMenu__subLink">LU finansētie projekti</a></li><li><a href="/zinatne/programmas-un-projekti/citi-projekti-un-petijumi/" class="asideMenu__subLink">Citi projekti un pētījumi</a></li></ul></li><li class="asideMenu__Item"><a href="/par-mums/struktura/instituti/" class="asideMenu__button asideMenu__link">Institūti</a></li><li class="asideMenu__Item"><div id="asideMenuHeading_49131_51340">
-                                                        <h3><a href="/zinatne/zinatnes-komunikacija/zinatnes-kafejnica/" class="asideMenu__button collapsed" data-toggle="collapse" data-target="#asideMenuItem_49131_51340" aria-expanded="true" aria-controls="asideMenuItem_49131_51340">Zinātnes komunikācija<span class="asideMenu__icon"></span></a></h3>
-                                                    </div><ul id="asideMenuItem_49131_51340" class="asideMenu__submenu collapse"
-                                                        aria-labelledby="asideMenuHeading"
-                                                        data-parent="#asideMenu_49131"><li><a href="/zinatne/zinatnes-komunikacija/studijas-petnieciba-inovacijas/" class="asideMenu__subLink">Studijas, pētniecība, inovācijas</a></li><li><a href="/zinatne/zinatnes-komunikacija/zinatnes-kafejnica/" class="asideMenu__subLink">Zinātnes kafejnīca</a></li><li><a href="/zinatne/zinatnes-komunikacija/zinatnieku-nakts/" class="asideMenu__subLink">Zinātnieku nakts</a></li></ul></li><li class="asideMenu__Item"><div id="asideMenuHeading_49131_49185">
-                                                        <h3><a href="/zinatne/sasniegumi/" class="asideMenu__button collapsed" data-toggle="collapse" data-target="#asideMenuItem_49131_49185" aria-expanded="true" aria-controls="asideMenuItem_49131_49185">Sasniegumi<span class="asideMenu__icon"></span></a></h3>
-                                                    </div><ul id="asideMenuItem_49131_49185" class="asideMenu__submenu collapse"
-                                                        aria-labelledby="asideMenuHeading"
-                                                        data-parent="#asideMenu_49131"><li><a href="/zinatne/sasniegumi/atzinibas/" class="asideMenu__subLink">Atzinības</a></li><li><a href="/zinatne/sasniegumi/lza-novertetais/" class="asideMenu__subLink">LZA novērtētais</a></li></ul></li><li class="asideMenu__Item"><div id="asideMenuHeading_49131_62361">
-                                                        <h3><a href="/zinatne/atbalsts-petniecibai-lu/zinatniskas-darbibas-atbalsta-programma/" class="asideMenu__button collapsed" data-toggle="collapse" data-target="#asideMenuItem_49131_62361" aria-expanded="true" aria-controls="asideMenuItem_49131_62361">Atbalsts pētniecībai LU<span class="asideMenu__icon"></span></a></h3>
-                                                    </div><ul id="asideMenuItem_49131_62361" class="asideMenu__submenu collapse"
-                                                        aria-labelledby="asideMenuHeading"
-                                                        data-parent="#asideMenu_49131"><li><a href="/zinatne/atbalsts-petniecibai-lu/zinatniskas-darbibas-atbalsta-programma/" class="asideMenu__subLink">Zinātniskās darbības atbalsta programma</a></li><li><a href="/zinatne/atbalsts-petniecibai-lu/projektu-istenosanas-noteikumi/" class="asideMenu__subLink">Projektu īstenošanas noteikumi</a></li><li><a href="/zinatne/atbalsts-petniecibai-lu/eurostat/" class="asideMenu__subLink">Eurostat</a></li></ul></li><li class="asideMenu__Item"><div id="asideMenuHeading_49131_49188">
-                                                        <h3><a href="/zinatne/petnieciba/prioritarie-petniecibas-virzieni/" class="asideMenu__button collapsed" data-toggle="collapse" data-target="#asideMenuItem_49131_49188" aria-expanded="true" aria-controls="asideMenuItem_49131_49188">Pētniecība<span class="asideMenu__icon"></span></a></h3>
-                                                    </div><ul id="asideMenuItem_49131_49188" class="asideMenu__submenu collapse"
-                                                        aria-labelledby="asideMenuHeading"
-                                                        data-parent="#asideMenu_49131"><li><a href="/zinatne/petnieciba/prioritarie-petniecibas-virzieni/" class="asideMenu__subLink">Prioritārie pētniecības virzieni</a></li><li><a href="/zinatne/petnieciba/lu-zinatnu-padome/" class="asideMenu__subLink">LU Zinātņu padome</a></li><li><a href="/zinatne/petnieciba/petijumu-etika/" class="asideMenu__subLink">Pētījumu ētika</a></li><li><a href="/zinatne/petnieciba/dokumenti/" class="asideMenu__subLink">Dokumenti</a></li><li><a href="/zinatne/petnieciba/lzp-eksperti/" class="asideMenu__subLink">LZP eksperti</a></li><li><a href="/zinatne/petnieciba/akreditetas-laboratorijas/" class="asideMenu__subLink">Akreditētās laboratorijas</a></li><li><a href="/zinatne/petnieciba/kolekcijas/" class="asideMenu__subLink">Kolekcijas</a></li></ul></li><li class="asideMenu__Item"><div id="asideMenuHeading_49131_78916">
-                                                        <h3><a href="/zinatne/zinatniskas-publikacijas/citetakas-publikacijas/" class="asideMenu__button collapsed" data-toggle="collapse" data-target="#asideMenuItem_49131_78916" aria-expanded="true" aria-controls="asideMenuItem_49131_78916">Zinātniskās publikācijas<span class="asideMenu__icon"></span></a></h3>
-                                                    </div><ul id="asideMenuItem_49131_78916" class="asideMenu__submenu collapse"
-                                                        aria-labelledby="asideMenuHeading"
-                                                        data-parent="#asideMenu_49131"><li><a href="/zinatne/zinatniskas-publikacijas/citetakas-publikacijas/" class="asideMenu__subLink">LU citētākās publikācijas</a></li><li><a href="/zinatne/sasniegumi/publikacijas/" class="asideMenu__subLink">Zinātnisko publikāciju statistika</a></li><li><a href="/zinatne/zinatniskas-publikacijas/zinatniskie-zurnali-un-rakstu-krajumi/" class="asideMenu__subLink">Zinātniskie žurnāli un rakstu krājumi</a></li><li><a href="/zinatne/zinatniskas-publikacijas/tautas-attistibas-parskati/" class="asideMenu__subLink">Tautas attīstības pārskati</a></li></ul></li><li class="asideMenu__Item"><div id="asideMenuHeading_49131_49189">
-                                                        <h3><a href="/zinatne/pecdoktorantura/" class="asideMenu__button collapsed" data-toggle="collapse" data-target="#asideMenuItem_49131_49189" aria-expanded="true" aria-controls="asideMenuItem_49131_49189">Pēcdoktorantūra<span class="asideMenu__icon"></span></a></h3>
-                                                    </div><ul id="asideMenuItem_49131_49189" class="asideMenu__submenu collapse"
-                                                        aria-labelledby="asideMenuHeading"
-                                                        data-parent="#asideMenu_49131"><li><a href="/zinatne/pecdoktorantura/1-karta/" class="asideMenu__subLink">1. kārta</a></li><li><a href="/zinatne/pecdoktorantura/2-karta/" class="asideMenu__subLink">2. kārta</a></li><li><a href="/zinatne/pecdoktorantura/3-karta/" class="asideMenu__subLink">3. kārta</a></li><li><a href="/zinatne/pecdoktorantura/4karta/" class="asideMenu__subLink">4. kārta</a></li><li><a href="/zinatne/pecdoktorantura/logo/" class="asideMenu__subLink">Logo</a></li><li><a href="/zinatne/pecdoktorantura/statistika/" class="asideMenu__subLink">Statistika</a></li></ul></li><li class="asideMenu__Item"><div id="asideMenuHeading_49131_49186">
-                                                        <h3><a href="/zinatne/konferences/" class="asideMenu__button collapsed" data-toggle="collapse" data-target="#asideMenuItem_49131_49186" aria-expanded="true" aria-controls="asideMenuItem_49131_49186">Konferences<span class="asideMenu__icon"></span></a></h3>
-                                                    </div><ul id="asideMenuItem_49131_49186" class="asideMenu__submenu collapse"
-                                                        aria-labelledby="asideMenuHeading"
-                                                        data-parent="#asideMenu_49131"><li><a href="/zinatne/konferences/lu-ikgadeja-starptautiska-zinatniska-konference/" class="asideMenu__subLink">LU ikgadējā starptautiskā zinātniskā konference</a></li><li><a href="/zinatne/konferences/citas-lu-konferences/" class="asideMenu__subLink">Citas LU  konferences</a></li></ul></li><li class="asideMenu__Item"><a href="/zinatne/intelektuala-ipasuma-izsoles/" class="asideMenu__button asideMenu__link">Intelektuālā īpašuma izsoles</a></li><li class="asideMenu__Item"><a href="http://sadarbiba.lu.lv/" target="_blank" class="asideMenu__button asideMenu__link">Sadarbība ar uzņēmējiem<i class="icon-lu-outsource"></i></a></li><li class="asideMenu__Item"><a href="https://www.napd.lu.lv/" target="_blank" class="asideMenu__button asideMenu__link">Nacionālais atvērtās piekļuves dienests<i class="icon-lu-outsource"></i></a></li><li class="asideMenu__Item"><a href="https://scientificservices.eu" target="_blank" class="asideMenu__button asideMenu__link">UseScience<i class="icon-lu-outsource"></i></a></li></ul>
-                                    </div></div></li><li><button class="mobileMenu__button" data-menu-id="49132">Sadarbība<i class="icon-lu-bulta-20"></i></button><div class="mobileMenu__submenuPage" data-menu-id="49132"><button class="mobileMenu__backButton"><i class="icon-lu-bulta-10"></i>Sadarbība</button><div class="mobileMenu__submenuContent">
-                                        <ul class="asideMenu asideMenu-white" id="asideMenu_49132"><li class="asideMenu__Item"><div id="asideMenuHeading_49132_49164">
-                                                        <h3><a href="/sadarbiba/starptautiska-sadarbiba/" class="asideMenu__button collapsed" data-toggle="collapse" data-target="#asideMenuItem_49132_49164" aria-expanded="true" aria-controls="asideMenuItem_49132_49164">Starptautiskā sadarbība<span class="asideMenu__icon"></span></a></h3>
-                                                    </div><ul id="asideMenuItem_49132_49164" class="asideMenu__submenu collapse"
-                                                        aria-labelledby="asideMenuHeading"
-                                                        data-parent="#asideMenu_49132"><li><a href="/sadarbiba/starptautiska-sadarbiba/erasmus-plus/" class="asideMenu__subLink">Erasmus+</a></li><li><a href="/sadarbiba/starptautiska-sadarbiba/forthem-alianse/" class="asideMenu__subLink">FORTHEM alianse</a></li></ul></li><li class="asideMenu__Item"><a href="/sadarbiba/arvalstu-komercagenti/" class="asideMenu__button asideMenu__link">Ārvalstu komercaģenti</a></li><li class="asideMenu__Item"><a href="http://sadarbiba.lu.lv/" target="_blank" class="asideMenu__button asideMenu__link">Sadarbība ar uzņēmējiem<i class="icon-lu-outsource"></i></a></li><li class="asideMenu__Item"><a href="http://absolventuklubs.lv" target="_blank" class="asideMenu__button asideMenu__link">Absolventu portāls<i class="icon-lu-outsource"></i></a></li><li class="asideMenu__Item"><a href="https://e-karjera.lu.lv/" target="_blank" class="asideMenu__button asideMenu__link">e-karjera<i class="icon-lu-outsource"></i></a></li><li class="asideMenu__Item"><a href="https://www.lu.lv/fileadmin/user_upload/LU.LV/www.lu.lv/Dokumenti/Cenradis_LU.pdf" target="_blank" class="asideMenu__button asideMenu__link">Reklāmas iespējas<i class="icon-lu-outsource"></i></a></li><li class="asideMenu__Item"><a href="/sadarbiba/lu-inovaciju-centrs-lumic/" class="asideMenu__button asideMenu__link">LU Inovāciju centrs LUMIC</a></li><li class="asideMenu__Item"><a href="/sadarbiba/fonds/" class="asideMenu__button asideMenu__link">LU Fonds</a></li><li class="asideMenu__Item"><a href="/sadarbiba/lu-studentu-biznesa-inkubators/" class="asideMenu__button asideMenu__link">LU studentu Biznesa inkubators</a></li><li class="asideMenu__Item"><a href="https://www.lumic.lu.lv/inovaciju-granti-studentiem/universitasu-inkubators/" target="_blank" class="asideMenu__button asideMenu__link">Universitāšu inkubators</a></li><li class="asideMenu__Item"><div id="asideMenuHeading_49132_69432">
-                                                        <h3><a href="/sadarbiba/erasmus-starptautiska-nedela-2020/" class="asideMenu__button collapsed" data-toggle="collapse" data-target="#asideMenuItem_49132_69432" aria-expanded="true" aria-controls="asideMenuItem_49132_69432">Erasmus+ starptautiskā nedēļa ārvalstu personālam 2021<span class="asideMenu__icon"></span></a></h3>
-                                                    </div><ul id="asideMenuItem_49132_69432" class="asideMenu__submenu collapse"
-                                                        aria-labelledby="asideMenuHeading"
-                                                        data-parent="#asideMenu_49132"><li><a href="http://docs.google.com/forms/d/e/1FAIpQLSebiFviIs7H1IZnBrgdyBZ9pY-xe0Yd0Noq4V69FCnSQo7XEg/viewform" class="asideMenu__subLink">Apply now<i class="icon-lu-outsource"></i></a></li></ul></li></ul>
-                                    </div></div></li><li><button class="mobileMenu__button" data-menu-id="49133">Par mums<i class="icon-lu-bulta-20"></i></button><div class="mobileMenu__submenuPage" data-menu-id="49133"><button class="mobileMenu__backButton"><i class="icon-lu-bulta-10"></i>Par mums</button><div class="mobileMenu__submenuContent">
-                                        <ul class="asideMenu asideMenu-white" id="asideMenu_49133"><li class="asideMenu__Item"><a href="/par-mums/par-lu/" class="asideMenu__button asideMenu__link">Par LU</a></li><li class="asideMenu__Item"><a href="https://www.akademiskaiscentrs.lu.lv/" class="asideMenu__button asideMenu__link">Akadēmiskais centrs<i class="icon-lu-outsource"></i></a></li><li class="asideMenu__Item"><a href="/par-mums/lu-100/" class="asideMenu__button asideMenu__link">LU 100</a></li><li class="asideMenu__Item"><a href="/par-mums/rektors/" class="asideMenu__button asideMenu__link">Rektors</a></li><li class="asideMenu__Item"><a href="/par-mums/lu-senats/" class="asideMenu__button asideMenu__link">LU Senāts</a></li><li class="asideMenu__Item"><div id="asideMenuHeading_49133_49212">
-                                                        <h3><a href="/par-mums/vadiba/" class="asideMenu__button collapsed" data-toggle="collapse" data-target="#asideMenuItem_49133_49212" aria-expanded="true" aria-controls="asideMenuItem_49133_49212">Vadība<span class="asideMenu__icon"></span></a></h3>
-                                                    </div><ul id="asideMenuItem_49133_49212" class="asideMenu__submenu collapse"
-                                                        aria-labelledby="asideMenuHeading"
-                                                        data-parent="#asideMenu_49133"><li><a href="https://www.lu.lv/fileadmin/user_upload/LU.LV/www.lu.lv/Dokumenti/Dokumenti_LV/1._VISPAREJIE_DOKUMENTI/LU_strategija_buklets_2021.pdf" target="_blank" class="asideMenu__subLink">LU stratēģija 2021–2027<i class="icon-lu-outsource"></i></a></li></ul></li><li class="asideMenu__Item"><a href="/par-mums/satversmes-sapulce/" class="asideMenu__button asideMenu__link">Satversmes sapulce</a></li><li class="asideMenu__Item"><a href="/par-mums/akademiska-skirejtiesa/" class="asideMenu__button asideMenu__link">Akadēmiskā šķīrējtiesa</a></li><li class="asideMenu__Item"><a href="/par-mums/akademiskas-etikas-komisija/" class="asideMenu__button asideMenu__link">Akadēmiskās ētikas komisija</a></li><li class="asideMenu__Item"><div id="asideMenuHeading_49133_53787">
-                                                        <h3><a href="/par-mums/padomdeveju-institucijas/padomnieku-konvents/" class="asideMenu__button collapsed" data-toggle="collapse" data-target="#asideMenuItem_49133_53787" aria-expanded="true" aria-controls="asideMenuItem_49133_53787">Padomdevēju institūcijas<span class="asideMenu__icon"></span></a></h3>
-                                                    </div><ul id="asideMenuItem_49133_53787" class="asideMenu__submenu collapse"
-                                                        aria-labelledby="asideMenuHeading"
-                                                        data-parent="#asideMenu_49133"><li><a href="/par-mums/padomdeveju-institucijas/padomnieku-konvents/" class="asideMenu__subLink">Padomnieku konvents</a></li><li><a href="/par-mums/padomdeveju-institucijas/strategijas-padome/" class="asideMenu__subLink">Stratēģijas padome</a></li><li><a href="/zinatne/petnieciba/lu-zinatnu-padome/" class="asideMenu__subLink">Zinātnes padomes</a></li><li><a href="/par-mums/padomdeveju-institucijas/kvalitates-novertesanas-komisija/" class="asideMenu__subLink">Kvalitātes novērtēšanas komisija</a></li><li><a href="/par-mums/padomdeveju-institucijas/ekopadome/" class="asideMenu__subLink">Ekopadome</a></li></ul></li><li class="asideMenu__Item"><div id="asideMenuHeading_49133_49172">
-                                                        <h3><a href="/par-mums/administracija/departamenti/" class="asideMenu__button collapsed" data-toggle="collapse" data-target="#asideMenuItem_49133_49172" aria-expanded="true" aria-controls="asideMenuItem_49133_49172">Administrācija<span class="asideMenu__icon"></span></a></h3>
-                                                    </div><ul id="asideMenuItem_49133_49172" class="asideMenu__submenu collapse"
-                                                        aria-labelledby="asideMenuHeading"
-                                                        data-parent="#asideMenu_49133"><li><a href="/par-mums/administracija/departamenti/" class="asideMenu__subLink">Departamenti</a></li><li><a href="/par-mums/administracija/rektora-birojs/" class="asideMenu__subLink">Rektora birojs</a></li><li><a href="/par-mums/administracija/administracijas-atbalstu-grupa/" class="asideMenu__subLink">Administrācijas atbalstu grupa</a></li></ul></li><li class="asideMenu__Item"><div id="asideMenuHeading_49133_49173">
-                                                        <h3><a href="/par-mums/zimols/gerbonis-himna-un-karogs/" class="asideMenu__button collapsed" data-toggle="collapse" data-target="#asideMenuItem_49133_49173" aria-expanded="true" aria-controls="asideMenuItem_49133_49173">Zīmols<span class="asideMenu__icon"></span></a></h3>
-                                                    </div><ul id="asideMenuItem_49133_49173" class="asideMenu__submenu collapse"
-                                                        aria-labelledby="asideMenuHeading"
-                                                        data-parent="#asideMenu_49133"><li><a href="/par-mums/zimols/misija-vizija-vertibas/" class="asideMenu__subLink">Misija, vīzija, vērtības</a></li><li><a href="/par-mums/zimols/gerbonis-himna-un-karogs/" class="asideMenu__subLink">Ģerbonis, himna un karogs</a></li><li><a href="/par-mums/zimols/suveniri/" class="asideMenu__subLink">Suvenīri</a></li><li><a href="/par-mums/zimols/logotipi-un-sagataves/" class="asideMenu__subLink">Logotipi un sagataves</a></li></ul></li><li class="asideMenu__Item"><a href="/par-mums/skaitli-un-fakti/" class="asideMenu__button asideMenu__link">Skaitļi un fakti</a></li><li class="asideMenu__Item"><div id="asideMenuHeading_49133_49177">
-                                                        <h3><a href="/par-mums/vesture/lu-laika-gaita/" class="asideMenu__button collapsed" data-toggle="collapse" data-target="#asideMenuItem_49133_49177" aria-expanded="true" aria-controls="asideMenuItem_49133_49177">Vēsture<span class="asideMenu__icon"></span></a></h3>
-                                                    </div><ul id="asideMenuItem_49133_49177" class="asideMenu__submenu collapse"
-                                                        aria-labelledby="asideMenuHeading"
-                                                        data-parent="#asideMenu_49133"><li><a href="/par-mums/vesture/lu-laika-gaita/" class="asideMenu__subLink">LU laika gaitā</a></li><li><a href="/par-mums/vesture/tradicijas/" class="asideMenu__subLink">Tradīcijas</a></li></ul></li><li class="asideMenu__Item"><a href="/par-mums/iepirkumi-un-izsoles-nomas-objektu-atlase/" class="asideMenu__button asideMenu__link">Iepirkumi un izsoles/ nomas objektu atlase</a></li><li class="asideMenu__Item"><div id="asideMenuHeading_49133_49176">
-                                                        <h3><a href="/par-mums/struktura/strukturshema/" class="asideMenu__button collapsed" data-toggle="collapse" data-target="#asideMenuItem_49133_49176" aria-expanded="true" aria-controls="asideMenuItem_49133_49176">Struktūra<span class="asideMenu__icon"></span></a></h3>
-                                                    </div><ul id="asideMenuItem_49133_49176" class="asideMenu__submenu collapse"
-                                                        aria-labelledby="asideMenuHeading"
-                                                        data-parent="#asideMenu_49133"><li><a href="/par-mums/struktura/strukturshema/" class="asideMenu__subLink">Struktūrshēma</a></li><li><a href="/studijas/fakultates-1/" class="asideMenu__subLink">Fakultātes</a></li><li><a href="/par-mums/struktura/instituti/" class="asideMenu__subLink">Institūti</a></li><li><a href="/par-mums/struktura/lu-centri/" class="asideMenu__subLink">LU centri</a></li><li><a href="/par-mums/struktura/lu-regionalais-centrs/" class="asideMenu__subLink">LU Reģionālais centrs</a></li><li><a href="/par-mums/struktura/filiales/" class="asideMenu__subLink">Filiāles</a></li><li><a href="/par-mums/struktura/koledzas/" class="asideMenu__subLink">Koledžas</a></li><li><a href="/par-mums/struktura/bibliotekas/" class="asideMenu__subLink">Bibliotēkas</a></li><li><a href="/par-mums/struktura/lu-muzejs/" class="asideMenu__subLink">LU Muzejs</a></li><li><a href="/par-mums/struktura/lu-botaniskais-darzs/" class="asideMenu__subLink">LU Botāniskais dārzs</a></li><li><a href="/par-mums/struktura/lu-rododendru-audzetava-babite/" class="asideMenu__subLink">LU Rododendru audzētava “Babīte”</a></li><li><a href="/par-mums/struktura/lu-akademiskais-apgads/" class="asideMenu__subLink">LU Akadēmiskais apgāds</a></li><li><a href="/par-mums/struktura/lu-baldones-observatorija/" class="asideMenu__subLink">LU Baldones observatorija</a></li><li><a href="https://www.arhivs.lu.lv/" target="_blank" class="asideMenu__subLink">LU Arhīvs<i class="icon-lu-outsource"></i></a></li></ul></li><li class="asideMenu__Item"><a href="/sports/" target="_blank" class="asideMenu__button asideMenu__link">Sports</a></li><li class="asideMenu__Item"><a href="https://www.kultura.lu.lv/" target="_blank" class="asideMenu__button asideMenu__link">Kultūra<i class="icon-lu-outsource"></i></a></li><li class="asideMenu__Item"><div id="asideMenuHeading_49133_49178">
-                                                        <h3><a href="/par-mums/lu-mediji/" class="asideMenu__button collapsed" data-toggle="collapse" data-target="#asideMenuItem_49133_49178" aria-expanded="true" aria-controls="asideMenuItem_49133_49178">LU mediji<span class="asideMenu__icon"></span></a></h3>
-                                                    </div><ul id="asideMenuItem_49133_49178" class="asideMenu__submenu collapse"
-                                                        aria-labelledby="asideMenuHeading"
-                                                        data-parent="#asideMenu_49133"><li><a href="/par-mums/lu-mediji/zinas/" class="asideMenu__subLink">Ziņas</a></li><li><a href="/par-mums/lu-mediji/zurnali/" class="asideMenu__subLink">Žurnāli</a></li><li><a href="http://foto.lu.lv/" target="_blank" class="asideMenu__subLink">Fotoarhīvs<i class="icon-lu-outsource"></i></a></li><li><a href="/par-mums/lu-mediji/tiesraides/" class="asideMenu__subLink">Tiešraides</a></li><li><a href="http://www.naba.lv" target="_blank" class="asideMenu__subLink">Radio<i class="icon-lu-outsource"></i></a></li></ul></li><li class="asideMenu__Item"><a href="/par-mums/dokumenti/" class="asideMenu__button asideMenu__link">Dokumenti</a></li><li class="asideMenu__Item"><div id="asideMenuHeading_49133_49184">
-                                                        <h3><a href="/par-mums/kontakti/" class="asideMenu__button collapsed" data-toggle="collapse" data-target="#asideMenuItem_49133_49184" aria-expanded="true" aria-controls="asideMenuItem_49133_49184">Kontakti<span class="asideMenu__icon"></span></a></h3>
-                                                    </div><ul id="asideMenuItem_49133_49184" class="asideMenu__submenu collapse"
-                                                        aria-labelledby="asideMenuHeading"
-                                                        data-parent="#asideMenu_49133"><li><a href="/par-mums/kontakti/rekviziti/" class="asideMenu__subLink">Rekvizīti</a></li></ul></li><li class="asideMenu__Item"><a href="/notikumi/menesis/" class="asideMenu__button asideMenu__link">Notikumu kalendārs</a></li><li class="asideMenu__Item"><a href="/par-mums/vakances/" class="asideMenu__button asideMenu__link">Vakances</a></li></ul>
-                                    </div></div></li><li class="mobileMenu__bottomLevelSeparator" style="height: 0px;">&nbsp;</li><li class="mobileMenu__bottomLevelLinkLine"><a href="https://www.lu.lv/portals/" target="_blank" class="mobileMenu__bottomLevelLink">Studentiem un darbiniekiem<i class="icon-lu-lock"></i></a></li><li class="mobileMenu__bottomLevelLinkLine"><a href="https://www.fonds.lv/" target="_blank" class="mobileMenu__bottomLevelLink">Mecenātiem<i class="icon-lu-outsource"></i></a></li><li class="mobileMenu__bottomLevelLinkLine"><a href="/par-mums/lu-mediji/" class="mobileMenu__bottomLevelLink">Medijiem</a></li><li class="mobileMenu__bottomLevelLinkLine"><a href="https://www.ak.lu.lv/" target="_blank" class="mobileMenu__bottomLevelLink">Absolventiem<i class="icon-lu-outsource"></i></a></li><li class="mobileMenu__bottomLevelSeparator" style="height: 0px;">&nbsp;</li><li class="mobileMenu__bottomLevelLinkLine"><a href="https://www.konference80.lu.lv/" class="mobileMenu__bottomLevelLink2">KONFERENCE</a></li><li class="mobileMenu__bottomLevelLinkLine"><a href="https://www.akademiskaiscentrs.lu.lv/" class="mobileMenu__bottomLevelLink2">Akadēmiskais centrs</a></li><li class="mobileMenu__bottomLevelAsideMenu" id="bottomLevelAsideMenu_1"><div class="bottomLevelAsideMenuHeading_1">
-                            <button class="mobileMenu__bottomLevelAsideMenuButton collapsed"
-                                data-toggle="collapse"
-                                data-target="#bottomLevelAsideMenuItem_1_1"
-                                aria-expanded="true" aria-controls="bottomLevelAsideMenuItem_1_1">Īsceļi<span class="mobileMenu__bottomLevelAsideMenuButtonIcon"></span>
-                            </button>
-                        </div><ul id="bottomLevelAsideMenuItem_1_1" class="mobileMenu__bottomLevelAsideMenuSubmenu collapse" aria-labelledby="asideMenuHeading" data-parent="#bottomLevelAsideMenu_1"><li><a href="https://www.forthem-alliance.eu/" target="_blank" class="mobileMenu__bottomLevelAsideMenuSubLink">FORTHEM</a></li><li><a href="https://estudijas.lu.lv/" target="_blank" class="mobileMenu__bottomLevelAsideMenuSubLink">E-studijas</a></li><li><a href="https://outlook.office.com/" target="_blank" class="mobileMenu__bottomLevelAsideMenuSubLink">E-pasts</a></li><li><a href="https://www.biblioteka.lu.lv/resursi/e-resursi-no-a-lidz-z/" target="_blank" class="mobileMenu__bottomLevelAsideMenuSubLink">E-resursi</a></li><li><a href="http://foto.lu.lv/" target="_blank" class="mobileMenu__bottomLevelAsideMenuSubLink">Foto</a></li><li><a href="/par-mums/lu-mediji/tiesraides/" class="mobileMenu__bottomLevelAsideMenuSubLink">Tiešraides</a></li><li><a href="https://serviss.lu.lv/" target="_blank" class="mobileMenu__bottomLevelAsideMenuSubLink">Servisa pieteikumi</a></li><li><a href="https://itserviss.lu.lv/" class="mobileMenu__bottomLevelAsideMenuSubLink">IT Serviss</a></li></ul></li></ul>
-                </div><ul class="mobileMenu__bottomRibbon">                    <li>
-                        <button class="mobileMenu__bottomButton searchTrigger">
-                            <span class="mobileMenu__searchIcon"><i class="icon-lu-search-2"></i></span>
-                        </button>
-                    </li>                <li>
-                    <button class="mobileMenu__bottomButton">
-                        <span class="mobileMenu__fontIcon"><i class="icon-lu-changefontsize"></i></span>
-                    </button>
-                    <ul class="mobileMenu__bottomSubmenu fontMenu">
-                        <li>
-                            <button href="#!" data-font="sm">75%</button>
-                        </li>
-                        <li>
-                            <button href="#!" data-font="nm">100%</button>
-                        </li>
-                        <li>
-                            <button href="#!" data-font="bg">125%</button>
-                        </li>
-                        <li>
-                            <button href="#!" data-font="eb">150%</button>
-                        </li>
-                    </ul>
-                </li>
-
-
-    <li>
-        <button class="mobileMenu__bottomButton">
-            
-                
-                    lv
-                    
-                
-            
-                
-            
-                
-            
-        </button>
-        <ul class="mobileMenu__bottomSubmenu fontMenu" style="">
-            
-                
-                        <li>
-                            <a href="/?gf=95&amp;cHash=bac0522f276f8fc6a56a14643ca3ea1a" hreflang="lv-LV" title="lv">
-                                <span>lv</span>
-                            </a>
-                        </li>
-                    
-            
-                
-                        <li>
-                            <a href="/en/?gf=95&amp;cHash=bac0522f276f8fc6a56a14643ca3ea1a" hreflang="en-GB" title="en">
-                                <span>en</span>
-                            </a>
-                        </li>
-                    
-            
-                
-            
-        </ul>
-    </li>
-
-
-</ul>
-                <div class="mobileMenu__searchWindowContainer"></div></div>
-        </nav>
-    </div>
+<div id="app">
+<style>.header{width:100%;background:var(--background-surface-color);height:46px}.sc-classic .header{background:#333}.header__logo{background:var(--background-surface-color)}.sc-classic .header__logo{background:#333}body:not(.sc-classic) .header__logoLink{display:flex;flex-direction:column;justify-content:center;align-content:center}.header__logoLink{height:46px;width:48px}.header__logoLink svg{color:var(--primary-color)}.sc-classic .header__logoLink{background:transparent url(https://a-v2.sndcdn.com/assets/images/header/brand-1b72dd8210.svg) no-repeat 0 11px;background-size:49px 22px;display:block;height:46px;width:49px;margin-right:23px}.sc-classic .header__logoLink{background-image:url(https://a-v2.sndcdn.com/assets/images/header/cloud-e365a472bf.png);background-position-x:12px;background-size:48px 22px;width:69px;margin-right:unset}.sc-classic .header__logoLink svg{display:none}.header__logoLink:focus{background-color:rgba(255,72,0,.8);outline:0}#header__loading{margin:13px auto 0;width:16px;background:url(https://a-v2.sndcdn.com/assets/images/loader-dark-45940ae3d4.gif) center no-repeat;background-size:16px 16px}@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi),(min-resolution:2dppx){.sc-classic .header__logoLink{background-image:url(https://a-v2.sndcdn.com/assets/images/header/cloud@2x-e5fba4606d.png)}}</style>
+<div role="banner" class="header sc-selection-disabled show fixed g-dark g-z-index-header">
+<div class="header__inner l-container l-fullwidth">
+<div class="header__left left">
+<div class="header__logo left">
+<a href="/" title="Home" class="header__logoLink sc-border-box sc-ir">
+<svg viewBox="0 0 143 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<path fill="currentColor" transform="translate(-166.000000, -1125.000000)" d="M308.984235,1169.99251 C308.382505,1180.70295 299.444837,1189.03525 288.718543,1188.88554 L240.008437,1188.88554 C237.777524,1188.86472 235.977065,1187.05577 235.966737,1184.82478 L235.966737,1132.37801 C235.894282,1130.53582 236.962478,1128.83883 238.654849,1128.10753 C238.654849,1128.10753 243.135035,1124.99996 252.572022,1124.99996 C258.337036,1124.99309 263.996267,1126.54789 268.948531,1129.49925 C276.76341,1134.09703 282.29495,1141.75821 284.200228,1150.62285 C285.880958,1150.14737 287.620063,1149.90993 289.36674,1149.91746 C294.659738,1149.88414 299.738952,1152.0036 303.438351,1155.78928 C307.13775,1159.57496 309.139562,1164.70168 308.984235,1169.99251 Z M229.885123,1135.69525 C231.353099,1153.48254 232.420718,1169.70654 229.885123,1187.43663 C229.796699,1188.23857 229.119091,1188.84557 228.312292,1188.84557 C227.505494,1188.84557 226.827885,1188.23857 226.739461,1187.43663 C224.375448,1169.85905 225.404938,1153.33003 226.739461,1135.69525 C226.672943,1135.09199 226.957336,1134.50383 227.471487,1134.18133 C227.985639,1133.85884 228.638946,1133.85884 229.153097,1134.18133 C229.667248,1134.50383 229.951641,1135.09199 229.885123,1135.69525 Z M220.028715,1187.4557 C219.904865,1188.26549 219.208361,1188.86356 218.389157,1188.86356 C217.569953,1188.86356 216.87345,1188.26549 216.7496,1187.4557 C214.986145,1172.28686 214.986145,1156.96477 216.7496,1141.79593 C216.840309,1140.9535 217.551388,1140.31488 218.398689,1140.31488 C219.245991,1140.31488 219.95707,1140.9535 220.047779,1141.79593 C222.005153,1156.95333 221.998746,1172.29994 220.028715,1187.4557 Z M210.153241,1140.2517 C211.754669,1156.55195 212.479125,1171.15545 210.134176,1187.41757 C210.134176,1188.29148 209.425728,1188.99993 208.551813,1188.99993 C207.677898,1188.99993 206.969449,1188.29148 206.969449,1187.41757 C204.70076,1171.36516 205.463344,1156.34224 206.969449,1140.2517 C207.05845,1139.43964 207.744425,1138.82474 208.561345,1138.82474 C209.378266,1138.82474 210.06424,1139.43964 210.153241,1140.2517 Z M200.258703,1187.47476 C200.169129,1188.29694 199.474788,1188.91975 198.647742,1188.91975 C197.820697,1188.91975 197.126356,1188.29694 197.036782,1187.47476 C195.216051,1173.32359 195.216051,1158.99744 197.036782,1144.84627 C197.036782,1143.94077 197.770837,1143.20671 198.676339,1143.20671 C199.581842,1143.20671 200.315897,1143.94077 200.315897,1144.84627 C202.251054,1158.99121 202.231809,1173.33507 200.258703,1187.47476 Z M190.383229,1155.50339 C192.880695,1166.56087 191.755882,1176.32196 190.287906,1187.58915 C190.168936,1188.33924 189.522207,1188.89148 188.762737,1188.89148 C188.003266,1188.89148 187.356537,1188.33924 187.237567,1187.58915 C185.903044,1176.47448 184.797296,1166.48462 187.142244,1155.50339 C187.142244,1154.60842 187.867763,1153.8829 188.762737,1153.8829 C189.65771,1153.8829 190.383229,1154.60842 190.383229,1155.50339 Z M180.526821,1153.82571 C182.814575,1165.15009 182.071055,1174.7396 180.469627,1186.10211 C180.27898,1187.7798 177.400223,1187.79886 177.247706,1186.10211 C175.798795,1174.91118 175.112468,1165.0357 177.190512,1153.82571 C177.281785,1152.97315 178.001234,1152.32661 178.858666,1152.32661 C179.716099,1152.32661 180.435548,1152.97315 180.526821,1153.82571 Z M170.575089,1159.31632 C172.977231,1166.82778 172.157452,1172.92846 170.479765,1180.63056 C170.391921,1181.42239 169.722678,1182.02149 168.925999,1182.02149 C168.12932,1182.02149 167.460077,1181.42239 167.372232,1180.63056 C165.923321,1173.08097 165.332318,1166.84684 167.23878,1159.31632 C167.330053,1158.46376 168.049502,1157.81722 168.906934,1157.81722 C169.764367,1157.81722 170.483816,1158.46376 170.575089,1159.31632 Z"></path>
+</svg>
+SoundCloud
+</a>
 </div>
-
-    </div>
-    
-            <header class="homeHeader">
-                
-
-
-
-
-                
-    
-            
-
-        <!-- Homepage Rotating news -->
-        
-	
-
-
-	
-
-
-
-        <!-- Homepage Rotating news -->
-        
-	<!-- Homepage Rotating news -->
-	<div class="homeHeader__bgSlider">
-		
-			
-				
-					<div class="homeHeader__bgSlide" style="background-image: url('/fileadmin/user_upload/LU.LV/www.lu.lv/Zinas/2022/02_Februaris/80d.jpg')"></div>
-				
-			
-		
-			
-				
-					<div class="homeHeader__bgSlide" style="background-image: url('/fileadmin/user_upload/LU.LV/www.lu.lv/Zinas/2021/Decembris/Akademiskais_centrs_rotejosajai_zinai.jpg')"></div>
-				
-			
-		
-			
-				
-					<div class="homeHeader__bgSlide" style="background-image: url('/fileadmin/user_upload/LU.LV/www.lu.lv/Zinas/2021/Novembris_2021/MicrosoftTeams-image.png')"></div>
-				
-			
-		
-			
-				
-					<div class="homeHeader__bgSlide" style="background-image: url('/fileadmin/user_upload/LU.LV/www.lu.lv/Zinas/2021/Septembris/reitings_2021THE.jpg')"></div>
-				
-			
-		
-	</div>
-	<div class="homeHeader__content">
-		<div class="homeHeader__contentSlider">
-			
-				
-					<div class="homeHeader__contentSlide" data-slide-id="0">
-						<div class="homeHeader__contentSlideLabel"></div>
-						<div class="homeHeader__contentSlideTitle">
-							<h1 class="h1">LU 80. starptautiskās zinātniskās konferences programma šonedēļ</h1>
-						</div>
-						<div class="homeHeader__contentSlideText">
-							<p></p>
-						</div>
-						<div class="homeHeader__contentSlideAction">
-							<a class="luButton luButton-wireframe" title="LU 80. starptautiskās zinātniskās konferences programma šonedēļ" href="/par-mums/lu-mediji/zinas/zina/t/70245/">
-								UZZINĀT VAIRĀK
-							</a>
-						</div>
-					</div>
-				
-			
-				
-					<div class="homeHeader__contentSlide" data-slide-id="1">
-						<div class="homeHeader__contentSlideLabel"></div>
-						<div class="homeHeader__contentSlideTitle">
-							<h1 class="h1">LU saglabā līderpozīciju QS starptautiskajā reitingā “EECA 2022”</h1>
-						</div>
-						<div class="homeHeader__contentSlideText">
-							<p></p>
-						</div>
-						<div class="homeHeader__contentSlideAction">
-							<a class="luButton luButton-wireframe" title="LU saglabā līderpozīciju QS starptautiskajā reitingā “EECA 2022”" href="/par-mums/lu-mediji/zinas/zina/t/69399/">
-								UZZINĀT VAIRĀK
-							</a>
-						</div>
-					</div>
-				
-			
-				
-					<div class="homeHeader__contentSlide" data-slide-id="2">
-						<div class="homeHeader__contentSlideLabel"></div>
-						<div class="homeHeader__contentSlideTitle">
-							<h1 class="h1">Aktuālie epidemioloģiskās drošības noteikumi LU</h1>
-						</div>
-						<div class="homeHeader__contentSlideText">
-							<p></p>
-						</div>
-						<div class="homeHeader__contentSlideAction">
-							<a class="luButton luButton-wireframe" title="Aktuālie epidemioloģiskās drošības noteikumi LU" href="/par-mums/lu-mediji/zinas/zina/t/68421/">
-								UZZINĀT VAIRĀK
-							</a>
-						</div>
-					</div>
-				
-			
-				
-					<div class="homeHeader__contentSlide" data-slide-id="3">
-						<div class="homeHeader__contentSlideLabel"></div>
-						<div class="homeHeader__contentSlideTitle">
-							<h1 class="h1">LU prestižajā "THE” reitingā divos no pieciem rādītājiem iekļūst pasaules TOP 500</h1>
-						</div>
-						<div class="homeHeader__contentSlideText">
-							<p></p>
-						</div>
-						<div class="homeHeader__contentSlideAction">
-							<a class="luButton luButton-wireframe" title="LU prestižajā &quot;THE” reitingā divos no pieciem rādītājiem iekļūst pasaules TOP 500" href="/par-mums/lu-mediji/zinas/zina/t/67556/">
-								UZZINĀT VAIRĀK
-							</a>
-						</div>
-					</div>
-				
-			
-		</div>
-	</div>
-
-    
-
-
-
-    
-
-
-        
-
-            </header>
-        
-    <main>
-        
-    
-
-        
-    
-            <section class="pageLayout pageLayout-withAction">
-                <div class="pageLayout__grid pageLayout__grid-contentAndSidebarBottoms">
-                    <!--- 2020 NEWS LIST -->
-                    <div class="pageLayout__content">
-                        <div class="newsGrid__title">
-                            <h2 class="h2 h2-bigMargin">
-                                Ziņas
-                            </h2>
-                        </div>
-                        <div class="twoColumnGrid">
-                            
-
-        <!-- Homepage Top news -->
-        
-	
-
-
-	
-
-
-
-        <!-- Homepage Top news -->
-        
-<!-- Homepage Top news -->
-        
-        
-            
-    <div class="newsCard">
-        <a class="newsCard__image" title="Mārtiņš Kazāks LU konferences atklāšanas plenārsēdē akcentē Latvijas izaugsmi un izaicinājumus ekonomikā" href="/par-mums/lu-mediji/zinas/zina/t/70238/">
-            <div class="fittingImage" style="background-position: center; background-repeat: no-repeat;  background-size: cover; background-image: url('/templates/LU.LV/Public/Images/demoImgNews.png');">
-                
-                    <img alt="Mārtiņš Kazāks LU konferences atklāšanas plenārsēdē akcentē Latvijas izaugsmi un izaicinājumus ekonomikā" src="/fileadmin/_processed_/f/5/csm_IMG_2405_401947c4b9.jpg" width="800" height="534" />
-                
-            </div>
-        </a>
-        <div class="newsCard__date smallDescription">
-            11.02.2022.
-        </div>
-        <a class="newsCard__title" title="Mārtiņš Kazāks LU konferences atklāšanas plenārsēdē akcentē Latvijas izaugsmi un izaicinājumus ekonomikā" href="/par-mums/lu-mediji/zinas/zina/t/70238/">
-            <h3>Mārtiņš Kazāks LU konferences atklāšanas plenārsēdē akcentē Latvijas izaugsmi un izaicinājumus ekonomikā</h3>
-        </a>
-    </div>
-
-        
-    
-        
-            
-    <div class="newsCard">
-        <a class="newsCard__image" title="Iepazīsties ar Latvijas lielākajiem uzņēmumiem un iegūsti sertifikātu Karjeras iespēju dienā!" href="/par-mums/lu-mediji/zinas/zina/t/70145/">
-            <div class="fittingImage" style="background-position: center; background-repeat: no-repeat;  background-size: cover; background-image: url('/templates/LU.LV/Public/Images/demoImgNews.png');">
-                
-                    <img alt="Iepazīsties ar Latvijas lielākajiem uzņēmumiem un iegūsti sertifikātu Karjeras iespēju dienā!" src="/fileadmin/_processed_/0/7/csm_943x530_60f136e18b.png" width="800" height="450" />
-                
-            </div>
-        </a>
-        <div class="newsCard__date smallDescription">
-            09.02.2022.
-        </div>
-        <a class="newsCard__title" title="Iepazīsties ar Latvijas lielākajiem uzņēmumiem un iegūsti sertifikātu Karjeras iespēju dienā!" href="/par-mums/lu-mediji/zinas/zina/t/70145/">
-            <h3>Iepazīsties ar Latvijas lielākajiem uzņēmumiem un iegūsti sertifikātu Karjeras iespēju dienā!</h3>
-        </a>
-    </div>
-
-        
-    
-
-    
-
-
-
-    
-
-
-                        </div>
-                        
-                    </div>
-                    <!-- 2020 ALL NEWS LINK -->
-                    
-                            <div class="pageLayout__contentBottom">
-                                <div class="pageLayout__contentActionContainer"><a href="/par-mums/lu-mediji/zinas/" class="pageLayout__action smallDescription">APSKATĪT VISAS ZIŅAS</a></div>
-                            </div>
-                        
-                    <!-- 2020 EVENTS LIST -->
-                    
-                        
-
-        <!-- Homepage Events -->
-        
-	
-
-
-
-	
-
-	
-
-	
-
-
-        <div class="pageLayout__sidebarLimitedHeight">
-            <div class="pageLayout__sidebarLimitedHeightContent">
-
-                <h2 class="h2 h2-bigMargin pageLayout__sidebarLimitedHeightContentItem">
-                    Notikumi
-                </h2>
-
-                
-                        <div class="pageLayout__sidebarLimitedHeightContentList">
-                            <div class="columnGrid eventListScrollable">
-                                
-                                    
-
-
-
-    <a href="/notikumi/diena/notikums/?tx_calendarize_calendar%5Baction%5D=detail&tx_calendarize_calendar%5Bcontroller%5D=Calendar&tx_calendarize_calendar%5Bindex%5D=352475&cHash=6adf81b1e554ed70f6664004aca13f00" class="eventItem">
-        <div class="eventItem__dateCol">
-            <div class="eventItem__date">17</div>
-            <div class="eventItem__month">Feb</div>
-        </div>
-        <div class="eventItem__contentCol">
-            <!-- Add title -->
-            <div class="eventItem__title">
-                Tematiska domapmaiņa “Zaļais starpbrīdis – ceļā uz zaļo universitāti”
-            </div>
-
-            <!-- @TODO: Add short description -->
-            <div></div>
-
-            <div>
-
-
-
 </div>
-
-            <!-- Add time -->
-            <div>
-            
-                
-                        15.00 - 15.45
-                    
-            
-            </div>
-        </div>
-    </a>
-
-
-
-                                
-                                    
-
-
-
-    <a href="/notikumi/diena/notikums/?tx_calendarize_calendar%5Baction%5D=detail&tx_calendarize_calendar%5Bcontroller%5D=Calendar&tx_calendarize_calendar%5Bindex%5D=352327&cHash=cf3ea12f20911c794dca878906be130b" class="eventItem">
-        <div class="eventItem__dateCol">
-            <div class="eventItem__date">17</div>
-            <div class="eventItem__month">Feb</div>
-        </div>
-        <div class="eventItem__contentCol">
-            <!-- Add title -->
-            <div class="eventItem__title">
-                LU Grāmatu kluba tikšanās
-            </div>
-
-            <!-- @TODO: Add short description -->
-            <div></div>
-
-            <div>
-
-
-
+<div id="header__loading" class="sc-hidden"></div>
 </div>
-
-            <!-- Add time -->
-            <div>
-            
-                
-                        16.00 - 17.00
-                    
-            
-            </div>
-        </div>
-    </a>
-
-
-
-                                
-                                    
-
-
-
-    <a href="/notikumi/diena/notikums/?tx_calendarize_calendar%5Baction%5D=detail&tx_calendarize_calendar%5Bcontroller%5D=Calendar&tx_calendarize_calendar%5Bindex%5D=335530&cHash=52895706f3b3ebae5209f3f6786e0c66" class="eventItem">
-        <div class="eventItem__dateCol">
-            <div class="eventItem__date">17</div>
-            <div class="eventItem__month">Feb</div>
-        </div>
-        <div class="eventItem__contentCol">
-            <!-- Add title -->
-            <div class="eventItem__title">
-                Radio NABA raidījums "Zinātnes vārdā"
-            </div>
-
-            <!-- @TODO: Add short description -->
-            <div></div>
-
-            <div>
-
-
-
 </div>
-
-            <!-- Add time -->
-            <div>
-            
-                
-                        19.00 - 20.00
-                    
-            
-            </div>
-        </div>
-    </a>
-
-
-
-                                
-                            </div>
-                        </div>
-                    
-
-            </div>
-        </div>
-
-        <!-- All events data -->
-
-        <div class="pageLayout__sidebarBottom">
-            <div class="pageLayout__contentActionContainer">
-                <a href="/notikumi/menesis/" class="pageLayout__action smallDescription">
-                    APSKATĪT VISUS NOTIKUMUS
-                </a>
-            </div>
-        </div>
-    
-
-
-
-
-
-
-
-    
-
-
-                    
-                    <!-- HTML -->
-                </div>
-            </section>
-        
-
-        
-    
-
-        
-    
-        <section class="pageLayout pageLayout-withAction pageLayout-shaded">
-            <div class="pageLayout__grid  pageLayout__grid-wholePage">
-                <div class="pageLayout__content">
-                    
-
-
-        
-    <div class="newsGrid__title">
-        <h2 class="h2 h2-bigMargin">Atklāj LU</h2>
-    </div>
-    <div class="threeColumnGrid">
-        <div class="newsCard">
-            
-
-        
-                
-                        
-
-
-                        <section class="pageLayout__section">
-                            
-	
-
-
-	
-
-
-
-        
-                
-    
-        
-            
-                
-    <div class="newsCard">
-        <a class="newsCard__image" title="Starptautisks pētījums: Melnās nāves mirstība bija mazāka nekā līdz šim uzskatīts" href="/par-mums/lu-mediji/zinas/zina/t/69793/">
-            <div class="fittingImage" style="background-position: center; background-repeat: no-repeat;  background-size: cover; background-image: url('/templates/LU.LV/Public/Images/demoImgNews.png');">
-                
-                    <img alt="Starptautisks pētījums: Melnās nāves mirstība bija mazāka nekā līdz šim uzskatīts" src="/fileadmin/_processed_/2/2/csm_Figure_6crop_0d532f5192.jpg" width="800" height="681" />
-                
-            </div>
-        </a>
-        <div class="newsCard__date smallDescription">
-            11.02.2022.
-        </div>
-        <a class="newsCard__title" title="Starptautisks pētījums: Melnās nāves mirstība bija mazāka nekā līdz šim uzskatīts" href="/par-mums/lu-mediji/zinas/zina/t/69793/">
-            <h3>Starptautisks pētījums: Melnās nāves mirstība bija mazāka nekā līdz šim uzskatīts</h3>
-        </a>
-    </div>
-
-            
-        
-    
-
-            
-    
-
-
-
-                        </section>
-                        
-
-
-                    
-            
-    
-
-
-        </div>
-        <div class="newsCard">
-            
-
-        
-                
-                        
-
-
-                        <section class="pageLayout__section">
-                            
-	
-
-
-	
-
-
-
-        
-                
-    
-        
-            
-                
-    <div class="newsCard">
-        <a class="newsCard__image" title="LU Pedagoģijas, psiholoģijas un mākslas fakultātes docētāji kopā ar Daugavpils Universitāti radījuši izstādi “Šķērsgriezums”" target="_blank" href="https://www.ppmf.lu.lv/par-mums/zinas/zina/t/70217/">
-            <div class="fittingImage" style="background-position: center; background-repeat: no-repeat;  background-size: cover; background-image: url('/templates/LU.LV/Public/Images/demoImgNews.png');">
-                
-                    <img alt="LU Pedagoģijas, psiholoģijas un mākslas fakultātes docētāji kopā ar Daugavpils Universitāti radījuši izstādi “Šķērsgriezums”" src="/fileadmin/_processed_/a/e/csm_csm_6_Utans_54a9783e32_d0807129ae.jpg" width="800" height="450" />
-                
-            </div>
-        </a>
-        <div class="newsCard__date smallDescription">
-            14.02.2022.
-        </div>
-        <a class="newsCard__title" title="LU Pedagoģijas, psiholoģijas un mākslas fakultātes docētāji kopā ar Daugavpils Universitāti radījuši izstādi “Šķērsgriezums”" target="_blank" href="https://www.ppmf.lu.lv/par-mums/zinas/zina/t/70217/">
-            <h3>LU Pedagoģijas, psiholoģijas un mākslas fakultātes docētāji kopā ar Daugavpils Universitāti radījuši izstādi “Šķērsgriezums”</h3>
-        </a>
-    </div>
-
-            
-        
-    
-
-            
-    
-
-
-
-                        </section>
-                        
-
-
-                    
-            
-    
-
-
-        </div>
-        <div class="newsCard">
-            
-
-        
-                
-                        
-
-
-                        <section class="pageLayout__section">
-                            
-	
-
-
-	
-
-
-
-        
-                
-    
-        
-            
-                
-    <div class="newsCard">
-        <a class="newsCard__image" title="Studenti aicināti piedalīties Latvijas Universitātes virtuālā asistenta izstrādē" href="/par-mums/lu-mediji/zinas/zina/t/70226/">
-            <div class="fittingImage" style="background-position: center; background-repeat: no-repeat;  background-size: cover; background-image: url('/templates/LU.LV/Public/Images/demoImgNews.png');">
-                
-                    <img alt="Studenti aicināti piedalīties Latvijas Universitātes virtuālā asistenta izstrādē" src="/fileadmin/_processed_/3/8/csm_JTID_047_e2e8e71797.jpg" width="800" height="534" />
-                
-            </div>
-        </a>
-        <div class="newsCard__date smallDescription">
-            11.02.2022.
-        </div>
-        <a class="newsCard__title" title="Studenti aicināti piedalīties Latvijas Universitātes virtuālā asistenta izstrādē" href="/par-mums/lu-mediji/zinas/zina/t/70226/">
-            <h3>Studenti aicināti piedalīties Latvijas Universitātes virtuālā asistenta izstrādē</h3>
-        </a>
-    </div>
-
-            
-        
-    
-
-            
-    
-
-
-
-                        </section>
-                        
-
-
-                    
-            
-    
-
-
-        </div>
-    </div>
-
-    
-
-                </div>
-            </div>
-            <div class="pageLayout__contentActionContainer"><a href="/par-mums/lu-mediji/zinas/" class="pageLayout__action smallDescription">APSKATĪT VISAS ZIŅAS</a></div>
-        </section>
-    
-
-        
-    
-        <section class="studiesSliderSection">
-            <div class="studiesSliderSection__content">
-                
-
-        <!-- Studies LU -->
-        
-
-    <h2 class="h2 h2-bigMargin pageLayout__sidebarLimitedHeightContentItem">Studijas LU</h2>
-
-
-        
-    
-<div class="studiesSliderSection__slider">
-    <div class="studiesSlider">
-        
-            <div class="studiesSlider__slide studiesSlider__slide-active" data-slide-id="0">
-                
-                        <a class="studiesSliderCard" title="Koledžas līmeņa studijas" href="/gribustudet/studiju-programmas/koledzas-limena-studijas/">
-                            <div class="studiesSliderCard__title">
-                                <h3>Koledžas līmeņa studijas</h3>
-                            </div>
-                            <div class="studiesSliderCard__image">
-                                <div class="fittingImage fittingImage-noRadius" style="background-image: url('fileadmin/_processed_/3/9/csm_Koledzas_limena_studijas_09ecec7895.jpg');"><img src="/fileadmin/_processed_/3/9/csm_Koledzas_limena_studijas_09ecec7895.jpg" width="1000" height="522"   alt="Koledžas līmeņa studijas" ></div>
-                            </div>
-                            <div class="studiesSliderCard__action">
-                                <span class="luButton">APSKATĪT</span>
-                            </div>
-                        </a>
-                    
-            </div>
-        
-            <div class="studiesSlider__slide " data-slide-id="1">
-                
-                        <a class="studiesSliderCard" title="Bakalaura līmeņa studijas" href="/gribustudet/studiju-programmas/bakalaura-limena-studijas/">
-                            <div class="studiesSliderCard__title">
-                                <h3>Bakalaura līmeņa studijas</h3>
-                            </div>
-                            <div class="studiesSliderCard__image">
-                                <div class="fittingImage fittingImage-noRadius" style="background-image: url('fileadmin/_processed_/c/9/csm_paraugs_1_e20c80e08e.jpg');"><img src="/fileadmin/_processed_/c/9/csm_paraugs_1_e20c80e08e.jpg" width="1000" height="311"   alt="Bakalaura līmeņa studijas" ></div>
-                            </div>
-                            <div class="studiesSliderCard__action">
-                                <span class="luButton">APSKATĪT</span>
-                            </div>
-                        </a>
-                    
-            </div>
-        
-            <div class="studiesSlider__slide " data-slide-id="2">
-                
-                        <a class="studiesSliderCard" title="Maģistra līmeņa studijas" href="/gribustudet/studiju-programmas/magistra-limena-studijas/">
-                            <div class="studiesSliderCard__title">
-                                <h3>Maģistra līmeņa studijas</h3>
-                            </div>
-                            <div class="studiesSliderCard__image">
-                                <div class="fittingImage fittingImage-noRadius" style="background-image: url('fileadmin/_processed_/6/e/csm_02_Magistrantura_IMG_4247_copy_699f78af9c.jpg');"><img src="/fileadmin/_processed_/6/e/csm_02_Magistrantura_IMG_4247_copy_699f78af9c.jpg" width="1000" height="522"   alt="Maģistra līmeņa studijas" ></div>
-                            </div>
-                            <div class="studiesSliderCard__action">
-                                <span class="luButton">APSKATĪT</span>
-                            </div>
-                        </a>
-                    
-            </div>
-        
-            <div class="studiesSlider__slide " data-slide-id="3">
-                
-                        <a class="studiesSliderCard" title="Doktorantūra" href="/gribustudet/studiju-programmas/doktorantura/">
-                            <div class="studiesSliderCard__title">
-                                <h3>Doktorantūra</h3>
-                            </div>
-                            <div class="studiesSliderCard__image">
-                                <div class="fittingImage fittingImage-noRadius" style="background-image: url('fileadmin/_processed_/b/8/csm_03_Doktorantura_IMG_9968_copy_ca5a738917.jpg');"><img src="/fileadmin/_processed_/b/8/csm_03_Doktorantura_IMG_9968_copy_ca5a738917.jpg" width="1000" height="522"   alt="Doktorantūra" ></div>
-                            </div>
-                            <div class="studiesSliderCard__action">
-                                <span class="luButton">APSKATĪT</span>
-                            </div>
-                        </a>
-                    
-            </div>
-        
-            <div class="studiesSlider__slide " data-slide-id="4">
-                
-                        <a class="studiesSliderCard" title="Rezidentūra" href="/gribustudet/studiju-programmas/rezidentura/">
-                            <div class="studiesSliderCard__title">
-                                <h3>Rezidentūra</h3>
-                            </div>
-                            <div class="studiesSliderCard__image">
-                                <div class="fittingImage fittingImage-noRadius" style="background-image: url('fileadmin/_processed_/3/8/csm_04_Rezidentura_IMG_4171_copy_9815fe2a24.jpg');"><img src="/fileadmin/_processed_/3/8/csm_04_Rezidentura_IMG_4171_copy_9815fe2a24.jpg" width="1000" height="522"   alt="Rezidentūra" ></div>
-                            </div>
-                            <div class="studiesSliderCard__action">
-                                <span class="luButton">APSKATĪT</span>
-                            </div>
-                        </a>
-                    
-            </div>
-        
-    </div>
-    <div class="studiesSliderSection__controls">
-        <button class="studiesSliderSection__prev" id="studiesPrev">prev</button>
-        <button class="studiesSliderSection__next" id="studiesNext">next</button>
-        <div class="studiesSliderSection__label">
-            <span id="studiesSliderLabel">1</span> no 5
-        </div>
-    </div>
+<script>window.setTimeout((function(){if(!window.__sc_abortApp){var e=window.document.getElementById("header__loading");e&&(e.className="")}}),6e3)</script>
+<style>.errorPage__inner{width:580px;margin:0 auto;position:relative;padding-top:460px;background:url(https://a-v2.sndcdn.com/assets/images/errors/500-e5a180b7a8.png) no-repeat 50% 80px;text-align:center;transition:all 1s linear}.errorTitle{margin-bottom:10px;font-size:30px}.errorText{line-height:28px;color:#666;font-size:20px}.errorButtons{margin-top:30px}@media (max-width:1280px){.errorPage__inner{background-size:80%}}</style>
+<noscript class="errorPage__inner">
+<div class="errorPage__inner">
+<p class="errorTitle">JavaScript is disabled</p>
+<p class="errorText sc-font-light">You need to enable JavaScript to use SoundCloud</p>
+<div class="errorButtons">
+<a href="http://www.enable-javascript.com/" target="_blank" class="sc-button sc-button-medium">Show me how to enable it</a>
 </div>
-
-
-
-    
-
-
-            </div>
-        </section>
-    
-
-    </main>
-    
-<footer class="footer">
-    <div class="footer__grid">
-        <a href="/" title="Latvijas Universitāte" class="footer__logo"><img src="/templates/LU.LV/Public/Images/logo_100_blue.svg" width="478" height="108"   alt="Latvijas Universitāte" ></a>
-        <ul class="footer__menu"><a href="/par-mums/kontakti/" class="footer__menuLink">Kontakti</a><a href="https://www.google.com/maps/d/viewer?mid=1nH1yTveuDPNRnnNobJSugGxeorc&amp;hl=en&amp;ptab=2&amp;ie=UTF8&amp;oe=UTF8&amp;msa=0&amp;ll=56.94504130755944%2C24.08529299999998&amp;spn=0.062546%2C0.154324&amp;z=13" target="_blank" class="footer__menuLink">Karte un norādes</a><a href="/par-mums/par-timekla-vietni/" class="footer__menuLink">Par tīmekļa vietni</a><a href="https://www.lu.lv/par-mums/vakances/" class="footer__menuLink">Vakances</a><a href="/par-mums/privatuma-atruna/" class="footer__menuLink">Privātuma atruna</a><a href="/par-mums/trauksmes-celsana/" class="footer__menuLink">Trauksmes celšana</a></ul>
-
-        <!-- Social Share Menu -->
-        <div class="footer__socialMenu">
-            <div class="shareBar">
-                <ul class="shareBar__list"><li><a href="https://www.facebook.com/latvijasuniversitate/" target="_blank" rel="noreferrer"><i class="icon-lu-social-fb"></i></a></li><li><a href="https://twitter.com/universitatelv" target="_blank" rel="noreferrer"><i class="icon-lu-social-tw"></i></a></li><li><a href="https://www.youtube.com/user/universitatelv" target="_blank" rel="noreferrer"><i class="icon-lu-social-yt"></i></a></li><li><a href="https://www.instagram.com/universitate/" target="_blank" rel="noreferrer"><i class="icon-lu-social-insta"></i></a></li><li><a href="https://www.linkedin.com/school/latvijas-universitate/" target="_blank" rel="noreferrer"><i class="icon-lu-social-in"></i></a></li></ul>
-            </div>
-        </div>
-
-        <div class="footer__rankedBadge">
-            
-                    <a href="https://www.topuniversities.com/university-rankings/world-university-rankings/2021" target="_blank">
-                        <img src="/templates/LU.LV/Public/Images/ranked_badge_2021.png" alt="Ranked badge">
-                    </a>
-                    
-                        <div style="height: 10px; width: 100%;"></div>
-                        <a href="https://www.timeshighereducation.com/world-university-rankings/2021/world-ranking#!/page/0/length/25/sort_by/rank/sort_order/asc/cols/stats" target="_blank">
-                            <img src="/templates/LU.LV/Public/Images/the_badge_2021.png" alt="Ranked badge">
-                        </a>
-                    
-                    
-                        <div style="height: 10px; width: 100%;"></div>
-                        <a href="https://www.lu.lv/par-mums/lu-mediji/zinas/zina/t/59714/" target="_blank">
-                            <img src="/fileadmin/user_upload/Contact-to-Work-Environment.png" alt="Ranked badge">
-                        </a>
-                    
-                    
-                    
-                
-        </div>
-        <div class="footer__copyright footer__copyright-left">
-            
-                    © 2022 Latvijas Universitāte. Visas tiesības aizsargātas
-                
-        </div>
-        <div class="footer__copyright footer__copyright-right">
-            <!-- LU-IT-sd #2446
-            
-            -->
-        </div>
-    </div>
-    <button class="footer__up ">
-        <span class="footer__upArrow"></span>
-    </button>
-</footer>
-<div class="searchWindow" aria-label="Search Window">
-    <div class="searchWindow__content">
-        <div class="searchWindow__header">
-            <form class="searchWindow__inputGroup" id="mainSearchForm" action="/search" method="get">
-                <a href="/search" class="submitButton" id="mainSearchButton"><i class="icon-lu-search-2"></i></a>
-                <textarea id="searchWindowQuery" name="query" aria-label="Search query" placeholder="Ievadiet meklējamo frāzi"></textarea>
-            </form>
-            <button class="searchWindow__close searchClose" aria-label="Close"></button>
-        </div>
-    </div>
 </div>
-
-
+</noscript>
+<noscript></noscript>
+<style>#updateBrowserMessage{width:600px;margin:0 auto;position:relative;padding-top:410px;background:url(https://a-v2.sndcdn.com/assets/images/errors/browser-9cdd4e6df7.png) no-repeat 50% 130px;text-align:center;display:none}#updateBrowserMessage .messageText{line-height:26px;font-size:20px;margin-bottom:5px}#updateBrowserMessage .downloadLinks{margin-top:0}</style>
+<div id="updateBrowserMessage">
+<p class="messageText sc-text-light sc-text-secondary">
+Your current browser isn't compatible with SoundCloud. <br>
+Please download one of our supported browsers.
+<a href="https://help.soundcloud.com/hc/articles/115003564308-Technical-requirements">Need help?</a>
+</p>
+<div class="downloadLinks sc-type-h3 sc-text-h3 sc-text-light sc-text-secondary">
+<a href="http://google.com/chrome" target="_blank" title="Chrome">Chrome</a>
+| <a href="http://firefox.com" target="_blank" title="Firefox">Firefox</a> |
+<a href="http://apple.com/safari" target="_blank" title="Safari">Safari</a>
+|
+<a href="http://windows.microsoft.com/ie" target="_blank" title="Internet Explorer">Internet Explorer</a>
 </div>
+</div>
+<script>window.__sc_abortApp&&(window.document.getElementById("updateBrowserMessage").style.display="block")</script>
+<div id="error__timeout" class="errorPage__inner sc-hidden">
+<p class="errorTitle sc-type-h1 sc-text-h1">Sorry! Something went wrong</p>
+<div class="errorText sc-font-light">
+<p>Is your network connection unstable or browser outdated?</p>
+</div>
+<div class="errorButtons">
+<a class="sc-button" href="https://help.soundcloud.com" target="_blank" id="try-again">I need help</a>
+</div>
+</div>
+<script>function displayError(){if(!window.__sc_abortApp){var r=window.document,e=r.getElementById("error__timeout"),o=r.getElementById("header__loading");e&&o&&(e.className="errorPage__inner",o.className="sc-hidden")}}window.setTimeout(displayError,15e3),window.onerror=displayError</script>
+<p>
+<a href="/popular/searches" title="Popular searches">Popular searches</a>
+</p>
+</div>
+<script crossorigin src="https://a-v2.sndcdn.com/assets/52-35c65882.js"></script>
+<script crossorigin src="https://a-v2.sndcdn.com/assets/50-da11f65d.js"></script>
+<script src="https://cdn.cookielaw.org/consent/7e62c772-c97a-4d95-8d0a-f99bbeadcf61/otSDKStub.js"
+    data-document-language="true" type="text/javascript" charset="UTF-8"
+    data-domain-script="7e62c772-c97a-4d95-8d0a-f99bbeadcf61" ></script>
+<style>
+  body.ot-hide-banner #onetrust-banner-sdk {
+    visibility: hidden;
+    transform: translateY(110%);
+  }
+  #onetrust-banner-sdk {
+    transition: transform 1s ease 200ms;
+    transform: translateY(0%);
+  }
+  body.ot-hide-banner .onetrust-pc-dark-filter {
+    background: initial;
+    width: initial;
+    height: initial;
+    overflow: initial;
+    position: initial;
+  }
+</style>
+<script type="text/javascript">
+  (function (global) {
+    function OptanonWrapper() {
+      var activeGroups = (global.OptanonActiveGroups || '').split(',');
 
-<script type="text/javascript">  
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");  
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));  
-</script>  
-<script type="text/javascript">  
-var pageTracker = _gat._getTracker("UA-35964259-1");  
-pageTracker._initData();  
-pageTracker._trackPageview();  
+      if (Array.isArray(OptanonWrapper.callbacks)) {
+        for (var i = 0, max = OptanonWrapper.callbacks.length; i < max; i++) {
+          try {
+            OptanonWrapper.callbacks[i](activeGroups);
+          } catch (e) {}
+        }
+      }
+
+      OptanonWrapper.isLoaded = true;
+    };
+
+    OptanonWrapper.callbacks = [];
+    OptanonWrapper.isLoaded = false;
+
+    global.OptanonWrapper = OptanonWrapper;
+  }(window));
 </script>
-<script src="/templates/LU.LV/Public/Js/hammer.min.js?1542191653"></script>
-<script src="/templates/LU.LV/Public/Js/jquery-3.1.0.js?1542191653"></script>
-<script src="/templates/LU.LV/Public/Js/main.js?1630049253"></script>
-<script src="/templates/LU.LV/Public/Js/scripts.js?1604832421"></script>
-<script src="/templates/LU.LV/Public/Js/bootstrap-select.js?1549750003"></script>
-<script src="/typo3conf/ext/powermail/Resources/Public/JavaScript/Libraries/jquery.datetimepicker.min.js?1628678410"></script>
-<script src="/typo3conf/ext/powermail/Resources/Public/JavaScript/Libraries/parsley.min.js?1628678410"></script>
-<script src="/typo3conf/ext/powermail/Resources/Public/JavaScript/Powermail/Tabs.min.js?1628678410"></script>
-<script src="/typo3conf/ext/powermail/Resources/Public/JavaScript/Powermail/Form.min.js?1628678410"></script>
-<script src="/typo3conf/ext/ns_all_lightbox/Resources/Public/lightbox2/js/lightbox.js?1631166986"></script>
+
+<script>window.__sc_version="1646415212"</script>
+<script>window.__sc_hydration = [{"hydratable":"anonymousId","data":"399275-526034-569216-40840"},{"hydratable":"meUser","data":{"avatar_url":"https://i1.sndcdn.com/avatars-ejykin1mi1Y6QhH7-Q7xUZw-large.jpg","blocked_tracks_count":0,"city":"","comments_count":12,"consumer_subscriptions":null,"consumer_subscription":{"product":{"id":"free"}},"country_code":"LV","cpp":null,"created_at":"2019-09-06T18:17:48Z","creator_subscriptions":[{"product":{"id":"free"}}],"creator_subscription":{"product":{"id":"free"}},"date_of_birth":{"month":9,"year":2000},"default_license":"all-rights-reserved","default_tracks_feedable":false,"description":"","downloads_disabled":false,"downloads_disabled_reason":"","first_name":"oktobris","followers_count":3,"followings_count":4,"full_name":"oktobris 1","gender":"male","groups_count":0,"hidden_tracks_count":0,"id":696642018,"kind":"user","last_modified":"2021-07-06T10:53:34Z","last_name":"1","likes_count":196,"playlist_likes_count":2,"locale":"en_GB","permalink":"oktobris-1","permalink_url":"https://soundcloud.com/oktobris-1","playlist_count":0,"primary_email":"kitkats2312@gmail.com","primary_email_confirmed":true,"primary_email_sha256":"D81BDBF46255D4593AC739CFA3CBD32FB8412427088436E51CA9658E3F3E5ED6","private_playlists_count":6,"private_tracks_count":0,"quota":{"unlimited_upload_quota":false,"upload_seconds_used":0,"upload_seconds_left":10800,"upload_tracks_used":0,"unlimited_upload_duration_quota":false,"unlimited_upload_track_quota":true},"reposts_count":1,"track_count":0,"urn":"soundcloud:users:696642018","uri":"https://api.soundcloud.com/users/696642018","username":"Kitkats2312","verified":false,"visuals":{"urn":"soundcloud:users:696642018","enabled":true,"visuals":[{"urn":"soundcloud:visuals:139758288","entry_time":0,"visual_url":"https://i1.sndcdn.com/visuals-6Uxdl75h2BUwkvq9-t8mz8g-original.jpg"}],"tracking":null},"confirmed":true,"badges":{"pro":false,"pro_unlimited":false,"verified":false},"consent_management_jwt":{"userId":"MIytw1WplpoUXnIZPbIaJKE45VOoZQ8eMCRZxaEpl6mswtY+feAbPGzY","jwt":"eyJraWQiOiIzIiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiJNSXl0dzFXcGxwb1VYbklaUGJJYUpLRTQ1Vk9vWlE4ZU1DUlp4YUVwbDZtc3d0WStmZUFiUEd6WSIsImV4cCI6MTY0NjgzMjA4NywiaWF0IjoxNjQ2NzQ1Njg3fQ.JQRwuVvgKy1DmmZ2XgcixCoslMRa2_nrfyDSKjk7-1gB3iUx4xML8GHEvK_560xaMLXWkGUYTV987-XhZVCwhFGwycl5QpF3hHQ4pc9tqI1S9-AUEqvPUwAG8pO6A8OtnM3acqVxdZzSRwn2ZPSFfV4yJo0En4KA6QffMiT5XIJqSQPTGwN0cekyXkr9905GgE3iJSIX_knxRQOvMPabetZ_ZK3nvZ24ideXD5eFm2dOBfCeodzbkXkknhVvU_VUXYXSGDKC6Znw0QBW2RRc6G-3dl11jhdBMUgy9eC_2PzK6DGLomgM7z1arotbrABYDNptrj8LeKFMFVDZ84C-zw"},"station_urn":"soundcloud:system-playlists:artist-stations:696642018","station_permalink":"artist-stations:696642018","marketing_ids":{"gtm":"yoda:v-1:YwQzBkbLdkh1QAbTQYJkpXBGHd1udCwxcBOImE1/PoU="}}},{"hydratable":"features","data":{"features":["mobi_use_onetrust_gb","v2_use_onetrust_tcfv2_eu1","v2_popular_tags","v2_enable_onetrust","v2_use_onetrust_eu2","v2_use_onetrust_us","v2_tags_recent_tracks","use_recurly_checkout","mobi_enable_onetrust_tcfv2","mobi_use_onetrust_eu1","v2_enable_sourcepoint_tcfv2","mobi_peace_ukraine_logo_takeover","v2_peace_ukraine_logo_takeover","mobi_social_sharing","mobi_use_onetrust_tcfv2_eu2","v2_test_feature_toggle","mobi_use_onetrust_tcfv2_eu1","v2_post_with_caption","mobi_use_onetrust_eu4","featured_artists_banner","v2_repost_redirect_page","v2_use_onetrust_gb","v2_signals_collection","v2_direct_support_link","v2_hq_file_storage_release","v2_use_onetrust_eu4","v2_stories_onboarding","mobi_use_onetrust_eu3","mobi_use_onetrust_elsewhere","v2_use_onetrust_eu3","mobi_use_onetrust_us","v2_oscp_german_tax_fields_support","v2_use_new_connect","v2_use_onetrust_tcfv2_eu2","v2_use_onetrust_eu1","v2_enable_sourcepoint","mobi_use_onetrust_eu2","v2_use_onetrust_elsewhere","mobi_sign_in_experiment","mobi_enable_onetrust","v2_can_see_insights","mobi_trinity","v2_google_one_tap","v2_enable_pwa","mobi_use_hls_hack","v2_stories","v2_enable_onetrust_tcfv2","v2_enable_tcfv2_consent_string_cache"]}},{"hydratable":"experiments","data":{}},{"hydratable":"geoip","data":{"country_code":"LV","country_name":"Latvia","region":"16","city":"Liepaja","postal_code":"LV-3401","latitude":56.51280212402344,"longitude":21.015396118164062}},{"hydratable":"privacySettings","data":{"allows_messages_from_unfollowed_users":true,"analytics_opt_in":true,"communications_opt_in":true,"targeted_advertising_opt_in":true,"legislation":[]}},{"hydratable":"trackingBrowserTabId","data":"a45209"}];</script>
 
 
+<script crossorigin src="https://a-v2.sndcdn.com/assets/51-30d383c2.js"></script>
+<script crossorigin src="https://a-v2.sndcdn.com/assets/1-e3547258.js"></script>
+<script crossorigin src="https://a-v2.sndcdn.com/assets/3-ca0404ff.js"></script>
+<script crossorigin src="https://a-v2.sndcdn.com/assets/2-df01f315.js"></script>
+<script crossorigin src="https://a-v2.sndcdn.com/assets/0-1932678d.js"></script>
+<script crossorigin src="https://a-v2.sndcdn.com/assets/49-986052a3.js"></script>
 </body>
 </html>
